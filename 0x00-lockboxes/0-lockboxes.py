@@ -21,10 +21,14 @@ def canUnlockAll(boxes):
             for j in range(len(boxes)):
                 if i == j:
                     continue
+                if j in boxes[i]:
+                    continue
                 for bo in boxes[j]:
                     temp.add(bo)
             if i not in temp:
                 return False
+            '''if i in boxes[boxes[i].first]:
+                return False'''
         return True
     else:
         return False
