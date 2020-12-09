@@ -22,7 +22,8 @@ def canUnlockAll(boxes):
                 for bo in boxes[j]:
                     temp.add(bo)
             if i not in temp:
-                return False
+                if i not in boxes[0]:
+                    return False
         return True
     else:
         return False
