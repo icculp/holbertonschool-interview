@@ -7,6 +7,8 @@
 def canUnlockAll(boxes):
     """ Determine if all the boxes can be opened """
     b = set()
+    if type(boxes) is not list:
+        return False
     for box in boxes:
         for bo in box:
             b.add(bo)
@@ -22,8 +24,7 @@ def canUnlockAll(boxes):
                 for bo in boxes[j]:
                     temp.add(bo)
             if i not in temp:
-                if i not in boxes[0]:
-                    return False
+                return False
         return True
     else:
         return False
