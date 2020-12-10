@@ -11,6 +11,7 @@ def canUnlockAll(boxes):
 
     def depth_first(i):
         """ recursive depth-first search """
+        open[0] = 1
         for box in boxes[i]:
             if not open[box]:
                 open[box] = 1
