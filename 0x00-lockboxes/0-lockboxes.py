@@ -30,7 +30,7 @@ def canUnlockAll(boxes):
         return True
     return False
     '''
-
+    '''
     l = len(boxes)
     t = 1
     keys = [0]
@@ -43,6 +43,7 @@ def canUnlockAll(boxes):
     if t == l:
         return True
     return False
+    '''
     length = len(boxes)
     open = [0 for i in range(length)]
     open[0] = 1
