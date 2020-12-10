@@ -6,9 +6,11 @@
 
 def canUnlockAll(boxes):
     """ Determine if all the boxes can be opened """
-    if type(boxes) is not list:
+    if type(boxes) is not list or len(boxes) == 0:
         return False
-
+    if len(boxes) == 1:
+        return True
+    '''
     l = len(boxes)
     t = 1
     keys = [0]
@@ -21,10 +23,9 @@ def canUnlockAll(boxes):
     if t == l:
         return True
     return False
-
     '''
     length = len(boxes)
-    open = [0] * length
+    open = [0 for i in range(length)]
     open[0] = 1
     s = [0]
     while s:
@@ -35,4 +36,3 @@ def canUnlockAll(boxes):
                 s.append(i)
     os = sum(open)
     return True if os == length else False
-    '''
