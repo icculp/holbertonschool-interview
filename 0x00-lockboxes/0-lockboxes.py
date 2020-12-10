@@ -10,6 +10,7 @@ def canUnlockAll(boxes):
         return False
     if len(boxes) == 1:
         return True
+    '''
     length = len(boxes)
     open = [0] * length
 
@@ -29,6 +30,7 @@ def canUnlockAll(boxes):
         return True
     return False
     '''
+
     l = len(boxes)
     t = 1
     keys = [0]
@@ -56,4 +58,3 @@ def canUnlockAll(boxes):
                 pass
     os = sum(open)
     return True if os == length else False
-    '''
