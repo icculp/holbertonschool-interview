@@ -8,17 +8,13 @@ def canUnlockAll(boxes):
     """ Determine if all the boxes can be opened """
     length = len(boxes)
     open = [0] * length
-
-    def depth_first(i):
-        """ recursive depth-first search """
-        open[0] = 1
-        for box in boxes[i]:
-            if not open[box]:
-                open[box] = 1
-                depth_first(box)
-        open[i] = 1
-    depth_first(0)
-    s = sum(open)
-    if s == length:
-        return True
-    return False
+    open[0] = 1
+    s = [0]
+    while s:
+        n = s.pop()
+        for i in boxes[n]:
+            if not open[i]:
+                open[i] = 1
+                s.append(i)
+    os = sum(open)
+    return True if os == length else False
