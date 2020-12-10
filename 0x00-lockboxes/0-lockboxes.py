@@ -6,6 +6,8 @@
 
 def canUnlockAll(boxes):
     """ Determine if all the boxes can be opened """
+    if len(boxes) == 0:
+        return False
     length = len(boxes)
     open = [0] * length
     open[0] = 1
