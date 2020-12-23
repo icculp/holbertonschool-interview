@@ -72,6 +72,31 @@ heap_t *end(heap_t **root, int c, heap_t **new)
 }
 
 /**
+* heapify - Swaps order to ensure max heap
+* @new: Last node inserted to heapify
+* Return: Node where new node is now at
+*/
+
+heap_t *heapify(heap_t *new)
+{
+	heap_t *temp = new;
+	int t;
+
+	while (new->parent)
+	{
+		if (new->n > new->parent->n)
+		{
+			t = new->n, new->n  = new->parent->n;
+			new->parent->n = t;
+			temp = new->parent;
+		}
+		new = new->parent;
+	}
+	return (temp);
+
+}
+
+/**
 * heap_insert - Inserts into a heap
 * @root: root node
 * @value: value
@@ -99,5 +124,6 @@ heap_t *heap_insert(heap_t **root, int value)
 		*root = new;
 	else
 		new = end(root, c, &new);
+	new = heapify(new);
 	return (new);
 }
