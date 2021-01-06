@@ -10,19 +10,16 @@ def minOperations(n):
         return 0
     if n < 6 and n > 1:
         return n
-    try:
-        '''s = math.sqrt(n)
-        return int(s * 2) + 1'''
-        count = 0
-        while n % 2 == 0:
-            count += 2
-            n /= 2
-        i = 3
-        while i <= n:
-            while n % i == 0:
-                count += i
-                n /= i
-            i += 1
-        return count
-    except Exception:
-        return 0
+    '''s = math.sqrt(n)
+    return int(s * 2) + 1'''
+    count = 0
+    while n % 2 == 0:
+        count += 2
+        n /= 2
+    i = 3
+    while i <= n:
+        while n % i == 0:
+            count += i
+            n /= i
+        i += 1
+    return count
