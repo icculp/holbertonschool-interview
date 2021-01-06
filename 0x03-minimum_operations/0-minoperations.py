@@ -24,5 +24,5 @@ def minOperations(n):
                 n /= i
             i += 1
         return count
-    except Exception as e:
+    except Exception:
         return 0
