@@ -15,11 +15,11 @@ def minOperations(n):
     count = 0
     while n % 2 == 0:
         count += 2
-        n /= 2
+        n //= 2
     i = 3
     while i <= n:
         while n % i == 0:
             count += i
-            n /= i
+            n //= i
         i += 2
     return count
