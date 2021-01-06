@@ -21,5 +21,5 @@ def minOperations(n):
         while n % i == 0:
             count += i
             n /= i
-        i += 1
+        i += 2
     return count
