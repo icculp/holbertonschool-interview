@@ -1,5 +1,6 @@
 # 0x04. Sandpiles
-(0x04. Sandpiles)[https://intranet.hbtn.io/rltoken/UVY3WFjMmCRlLcr-B2Krug]
+
+[Sandpiles - Numberphile]: https://www.youtube.com/watch?v=1MtEUErz7Gg
 
 ### Write a function that computes the sum of two sandpiles
 
