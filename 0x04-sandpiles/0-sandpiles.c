@@ -32,25 +32,29 @@ static void topple(int grid1[3][3])
 	int i, j;
 
 	for (i = 0; i < 3; i++)
+	{
 		for (j = 0; j < 3; j++)
+		{
 			if (grid1[i][j] > 3)
 			{
-					grid1[i][j] -= 4;
-					if (j - 1 > -1)
-						grid1[i][j - 1] += 1;
-					if (j + 1 < 3)
-						grid1[i][j + 1] += 1;
-					if (i - 1 > -1)
-						grid1[i - 1][j] += 1;
-					if (i + 1 < 3)
-						grid1[i + 1][j] += 1;
+				grid1[i][j] -= 4;
+				if (j - 1 > -1)
+					grid1[i][j - 1] += 1;
+				if (j + 1 < 3)
+					grid1[i][j + 1] += 1;
+				if (i - 1 > -1)
+					grid1[i - 1][j] += 1;
+				if (i + 1 < 3)
+					grid1[i + 1][j] += 1;
 			}
+		}
+	}
 }
 
 /**
 * is_stable - Determines if grid is stable
 * @grid1: checks if >3
-* Returns: 0 if stable, 1 if unstable
+* Return: 0 if stable, 1 if unstable
 */
 
 int is_stable(int grid1[3][3])
