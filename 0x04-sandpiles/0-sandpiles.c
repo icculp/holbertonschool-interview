@@ -23,19 +23,37 @@ static void print_grid(int grid[3][3])
 }
 
 /**
-* topple - topples the values in the grid
-* @grid1: Grid to topple
+* cpy - copies grid1 to grid2
+* @grid1: grid1
+* @grid2: grid2
 */
 
-static void topple(int grid1[3][3])
+static void cpy(int grid1[3][3], int grid2[3][3])
 {
 	int i, j;
 
 	for (i = 0; i < 3; i++)
+		for (j = 0; j < 3; j++)
+			grid2[i][j] = grid1[i][j];
+
+}
+
+/**
+* topple - topples the values in the grid
+* @grid1: Grid to topple
+* @grid2: Using to copy for topple check
+*/
+
+static void topple(int grid1[3][3], int grid2[3][3])
+{
+	int i, j;
+
+	cpy(grid1, grid2);
+	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 3; j++)
 		{
-			if (grid1[i][j] > 3)
+			if (grid2[i][j] > 3)
 			{
 				grid1[i][j] -= 4;
 				if (j - 1 > -1)
@@ -68,20 +86,6 @@ int is_stable(int grid1[3][3])
 	return (0);
 }
 
-/**
-* add - Adds the two grids
-* @grid1: grid1
-* @grid2: grid2
-*/
-
-static void add(int grid1[3][3], int grid2[3][3])
-{
-	int i, j;
-
-	for (i = 0; i < 3; i++)
-		for (j = 0; j < 3; j++)
-			grid1[i][j] += grid2[i][j];
-}
 
 /**
 * sandpiles_sum - Computes sum of two sandpiles
@@ -91,15 +95,17 @@ static void add(int grid1[3][3], int grid2[3][3])
 
 void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
-	int s;
+	int i, j, s;
 
-	add(grid1, grid2);
+	for (i = 0; i < 3; i++)
+		for (j = 0; j < 3; j++)
+			grid1[i][j] += grid2[i][j];
 	s = is_stable(grid1);
 	while (s)
 	{
 		printf("=\n");
 		print_grid(grid1);
-		topple(grid1);
+		topple(grid1, grid2);
 		s = is_stable(grid1);
 	}
 }
