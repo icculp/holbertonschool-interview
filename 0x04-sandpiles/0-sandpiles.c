@@ -22,7 +22,62 @@ static void print_grid(int grid[3][3])
 	}
 }
 
+/**
+* topple - topples the values in the grid
+* @grid1: Grid to topple
+*/
 
+static void topple(int grid1[3][3])
+{
+	int i, j;
+
+	for (i = 0; i < 3; i++)
+		for (j = 0; j < 3; j++)
+			if (grid1[i][j] > 3)
+			{
+					grid1[i][j] -= 4;
+					if (j - 1 > -1)
+						grid1[i][j - 1] += 1;
+					if (j + 1 < 3)
+						grid1[i][j + 1] += 1;
+					if (i - 1 > -1)
+						grid1[i - 1][j] += 1;
+					if (i + 1 < 3)
+						grid1[i + 1][j] += 1;
+			}
+}
+
+/**
+* is_stable - Determines if grid is stable
+* @grid1: checks if >3
+* Returns: 0 if stable, 1 if unstable
+*/
+
+int is_stable(int grid1[3][3])
+{
+	int i, j;
+
+	for (i = 0; i < 3; i++)
+		for (j = 0; j < 3; j++)
+			if (grid1[i][j] > 3)
+				return (1);
+	return (0);
+}
+
+/**
+* add - Adds the two grids
+* @grid1: grid1
+* @grid2: grid2
+*/
+
+static void add(int grid1[3][3], int grid2[3][3])
+{
+	int i, j;
+
+	for (i = 0; i < 3; i++)
+		for (j = 0; j < 3; j++)
+			grid1[i][j] += grid2[i][j];
+}
 
 /**
 * sandpiles_sum - Computes sum of two sandpiles
@@ -32,10 +87,15 @@ static void print_grid(int grid[3][3])
 
 void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
-	int i, j;
+	int s;
 
-	for (i = 0; i < 3; i++)
-		for (j = 0; j < 3; j++)
-			grid1[i][j] += grid2[i][j];
-	print_grid(grid1);
+	add(grid1, grid2);
+	s = is_stable(grid1);
+	while (s)
+	{
+		printf("=\n");
+		print_grid(grid1);
+		topple(grid1);
+		s = is_stable(grid1);
+	}
 }
