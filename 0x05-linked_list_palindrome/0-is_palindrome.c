@@ -3,7 +3,7 @@
 /**
 * is_palindrome - Checks if values make palindrome
 * @head: head node of linked list
-* Returns: 0 if not, 1 if it is
+* Return: 0 if not, 1 if it is
 */
 
 int is_palindrome(listint_t **head)
@@ -29,7 +29,7 @@ int is_palindrome(listint_t **head)
 	for (i = 0; i < c; i++)
 	{
 		stack[i] = temp->n;
-		printf("temp->n: %d\n", temp->n);
+		/**printf("temp->n: %d\n", temp->n);*/
 		temp = temp->next;
 	}
 	i--;
@@ -38,12 +38,12 @@ int is_palindrome(listint_t **head)
 		temp = temp->next, printf("D == 0\n");
 	while (temp != NULL)
 	{
-		printf("temp->n %d, stacki %d\n", temp->n, stack[i]);
+		/**printf("temp->n %d, stacki %d\n", temp->n, stack[i]);*/
 		if (temp->n != stack[i])
 			return (0);
 		temp = temp->next;
 		i--;
 	}
-	printf("count: %d\n", count);
+	/**printf("count: %d\n", count);*/
 	return (1);
 }
