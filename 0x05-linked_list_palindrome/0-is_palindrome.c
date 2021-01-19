@@ -33,7 +33,7 @@ int is_palindrome(listint_t **head)
 		temp = temp->next;
 	}
 	i--;
-	printf("temp->n %d\n", temp->next->n);
+	/**printf("temp->n %d\n", temp->next->n);*/
 	if (d == 0)
 		temp = temp->next, printf("D == 0\n");
 	while (temp != NULL)
