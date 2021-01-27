@@ -25,7 +25,7 @@ class Log:
             code = ls[7]
             '''print("code: [{}]".format(code))
             print("cachecode1: [{}]".format(self.cache[code]))'''
-            if self.cache.get(code) == None:
+            if self.cache.get(code) is None:
                 self.cache.update({code: 1})
             else:
                 self.cache[code] += 1
