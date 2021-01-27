@@ -13,7 +13,7 @@ class Log:
             empty_cache[str(l)] = 0
         self.empty_cache = empty_cache.copy()
         self.id = 1
-        self.cache = empty_cache.copy()
+        self.cache = {}
         self.size = 0
         self.i = 0
 
@@ -25,7 +25,11 @@ class Log:
             code = ls[7]
             '''print("code: [{}]".format(code))
             print("cachecode1: [{}]".format(self.cache[code]))'''
-            self.cache[code] += 1
+            if self.cache.get(code) == None:
+                self.cache.update({code: 1})
+            else:
+                self.cache[code] += 1
+            '''self.cache[code] += 1'''
             '''self.cache['cool'] += 2'''
             '''print("cachecode2: [{}]".format(self.cache[code]))
             print("--------")'''
