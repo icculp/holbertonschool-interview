@@ -38,7 +38,7 @@ class Log:
 
     def print_dat(self):
         """ Prints dat cache """
-        print("File size: {}".format(self.size))
+        print("File size: {:d}".format(self.size))
         for k in sorted(self.cache.keys()):
             if self.cache[k] != 0:
                 print("{}: {}".format(k, self.cache[k]))
@@ -48,8 +48,6 @@ class Log:
 log = Log()
 try:
     log.do_stuff()
-    sys.stdout.flush()
 finally:
     log.print_dat()
-    sys.stdout.flush()
-    exit(0)
+exit(0)
