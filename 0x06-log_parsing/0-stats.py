@@ -40,11 +40,10 @@ class Log:
         self.cache = self.empty_cache.copy()
 
 
-if __name__ == '__main__':
-    log = Log()
-    try:
-        while(1):
-            log.do_stuff()
-    except KeyboardInterrupt:
-        log.print_dat()
-        exit()
+log = Log()
+try:
+    while(1):
+        log.do_stuff()
+except KeyboardInterrupt:
+    log.print_dat()
+    exit()
