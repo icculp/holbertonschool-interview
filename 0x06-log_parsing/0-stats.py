@@ -35,7 +35,7 @@ class Log:
             print("--------")'''
             self.size += eval(ls[8].strip('\n'))
             self.i += 1
-            if self.i == 10:
+            if self.i == 9:
                 self.i = 0
                 self.print_dat()
                 '''self.cache = self.empty_cache.copy()'''
