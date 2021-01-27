@@ -42,8 +42,7 @@ class Log:
 
 log = Log()
 try:
-    while(1):
-        log.do_stuff()
+    log.do_stuff()
 except KeyboardInterrupt:
     log.print_dat()
     exit()
