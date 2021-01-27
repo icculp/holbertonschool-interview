@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import sys
+'''from signal import signal, SIGINT'''
 
 
 class Log:
@@ -40,11 +41,14 @@ class Log:
         self.cache = self.empty_cache.copy()
 
 
+def handler(signum, frame):
+    """ handles ctrl-c signal """
+    log.print_dat()
+    exit()
+
+
 if __name__ == '__main__':
     log = Log()
-    try:
-        while(1):
-            log.do_stuff()
-    except KeyboardInterrupt:
-        log.print_dat()
-        exit()
+    signal(SIGINT, handler)
+    while(1):
+        log.do_stuff()
