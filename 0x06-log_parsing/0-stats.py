@@ -48,6 +48,6 @@ class Log:
 log = Log()
 try:
     log.do_stuff()
-except KeyboardInterrupt:
+finally:
     log.print_dat()
-    exit()
+    exit(0)
