@@ -48,6 +48,8 @@ class Log:
 log = Log()
 try:
     log.do_stuff()
+    sys.stdout.flush()
 finally:
     log.print_dat()
+    sys.stdout.flush()
     exit(0)
