@@ -11,7 +11,7 @@ class Log:
         li = [200, 301, 400, 401, 403, 404, 405, 500]
         for l in li:
             empty_cache[str(l)] = 0
-        self.empty_cache = empty_cache
+        self.empty_cache = empty_cache.copy()
         self.id = 1
         self.cache = empty_cache.copy()
         self.size = 0
@@ -23,13 +23,18 @@ class Log:
         for line in sys.stdin:
             ls = line.split(' ')
             code = ls[7]
+            '''print("code: [{}]".format(code))
+            print("cachecode1: [{}]".format(self.cache[code]))'''
             self.cache[code] += 1
+            '''self.cache['cool'] += 2'''
+            '''print("cachecode2: [{}]".format(self.cache[code]))
+            print("--------")'''
             self.size += eval(ls[8].strip('\n'))
             self.i += 1
             if self.i == 10:
                 self.i = 0
                 self.print_dat()
-                self.cache = self.empty_cache.copy()
+                '''self.cache = self.empty_cache.copy()'''
 
     def print_dat(self):
         """ Prints dat cache """
@@ -37,7 +42,7 @@ class Log:
         for k in sorted(self.cache.keys()):
             if self.cache[k] != 0:
                 print("{}: {}".format(k, self.cache[k]))
-        self.cache = self.empty_cache.copy()
+        '''self.cache = self.empty_cache.copy()'''
 
 
 log = Log()
