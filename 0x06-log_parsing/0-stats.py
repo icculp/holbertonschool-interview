@@ -49,11 +49,10 @@ class Log:
         '''self.cache = self.empty_cache.copy()'''
 
 
-if __name__ == '__main__':
-    log = Log()
-    try:
-        log.do_stuff()
-        log.print_dat()
-    except KeyboardInterrupt:
-        log.print_dat()
-        raise
+log = Log()
+try:
+    log.do_stuff()
+    log.print_dat()
+except KeyboardInterrupt:
+    log.print_dat()
+    raise
