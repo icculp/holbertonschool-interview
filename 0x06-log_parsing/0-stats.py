@@ -52,6 +52,7 @@ class Log:
 log = Log()
 try:
     log.do_stuff()
+    log.print_dat()
 except KeyboardInterrupt:
     log.print_dat()
     raise
