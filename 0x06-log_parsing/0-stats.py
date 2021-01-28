@@ -26,7 +26,7 @@ class Log:
                 '''self.size += eval(ls[8].strip('\n'))
                 self.i += 1'''
                 continue
-            code = ls[7]
+            code = ls[-2]
             '''print("code: [{}]".format(code))
             print("cachecode1: [{}]".format(self.cache[code]))'''
             '''if self.cache.get(code) is None:
