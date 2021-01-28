@@ -54,4 +54,3 @@ try:
     log.do_stuff()
 finally:
     log.print_dat()
-
