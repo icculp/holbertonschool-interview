@@ -23,6 +23,7 @@ class Log:
         for line in sys.stdin:
             ls = line.split(' ')
             if len(ls) < 8:
+                self.size += eval(ls[8].strip('\n'))
                 self.i += 1
                 continue
             code = ls[7]
