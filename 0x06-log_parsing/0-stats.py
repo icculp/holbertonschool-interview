@@ -22,6 +22,9 @@ class Log:
         i = 0
         for line in sys.stdin:
             ls = line.split(' ')
+            if len(ls) < 8:
+                self.i += 1
+                continue
             code = ls[7]
             '''print("code: [{}]".format(code))
             print("cachecode1: [{}]".format(self.cache[code]))'''
