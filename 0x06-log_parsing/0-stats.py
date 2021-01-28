@@ -31,7 +31,8 @@ class Log:
             '''if self.cache.get(code) is None:
                 self.cache.update({code: 1})
             else:'''
-            self.cache[code] += 1
+            if code in self.cache.keys():
+                self.cache[code] += 1
             '''self.cache[code] += 1'''
             '''self.cache['cool'] += 2'''
             '''print("cachecode2: [{}]".format(self.cache[code]))
