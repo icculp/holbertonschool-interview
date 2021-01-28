@@ -49,7 +49,6 @@ if __name__ == '__main__':
                     print("{}: {}".format(k, self.cache[k]))
             '''self.cache = self.empty_cache.copy()'''
 
-
     log = Log()
     try:
         log.do_stuff()
