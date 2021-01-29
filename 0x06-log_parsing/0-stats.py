@@ -22,7 +22,7 @@ class Log:
         i = 0
         for line in sys.stdin:
             ls = line.split(' ')
-            if len(ls) < 3:
+            if len(ls) < 9:
                 '''self.size += eval(ls[8].strip('\n'))
                 self.i += 1'''
                 continue
