@@ -22,10 +22,10 @@ class Log:
         i = 0
         for line in sys.stdin:
             ls = line.split(' ')
-            '''if len(ls) < 9:
-                self.size += eval(ls[8].strip('\n'))
-                self.i += 1
-                continue'''
+            if len(ls) != 9:
+                '''self.size += eval(ls[8].strip('\n'))
+                self.i += 1'''
+                continue
             code = ls[-2]
             '''print("code: [{}]".format(code))
             print("cachecode1: [{}]".format(self.cache[code]))'''
