@@ -48,6 +48,7 @@ class Log:
                 self.print_dat()
                 '''self.cache = self.empty_cache.copy()'''
         sys.stdout.flush()
+
     def print_dat(self):
         """ Prints dat cache """
         print("File size: {:d}".format(self.size))
