@@ -22,8 +22,8 @@ class Log:
         i = 0
         for line in sys.stdin:
             ls = line.split(' ')
-            print(ls)
-            print(len(ls))
+            '''print(ls)
+            print(len(ls))'''
             '''print(ls)'''
             if len(ls) < 2:
                 '''self.size += eval(ls[8].strip('\n'))
