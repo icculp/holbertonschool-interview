@@ -22,7 +22,10 @@ class Log:
         i = 0
         for line in sys.stdin:
             ls = line.split(' ')
-            if len(ls) != 9:
+            print(ls)
+            print(len(ls))
+            '''print(ls)'''
+            if len(ls) < 2:
                 '''self.size += eval(ls[8].strip('\n'))
                 self.i += 1'''
                 continue
@@ -44,7 +47,7 @@ class Log:
                 self.i = 0
                 self.print_dat()
                 '''self.cache = self.empty_cache.copy()'''
-
+        sys.stdout.flush()
     def print_dat(self):
         """ Prints dat cache """
         print("File size: {:d}".format(self.size))
