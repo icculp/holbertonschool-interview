@@ -9,12 +9,17 @@ def validUTF8(data):
         True if valid else False
     """
     last_byte_mask = 255
-    '''data = [210, 310, 410]'''
+    '''data = [257, 525, 410]'''
     last_bytes = [d & last_byte_mask for d in data]
-    if (type(data) is not list or
+    '''print(last_bytes)'''
+    '''if (type(data) is not list or
         not all(isinstance(d, int) for d in data) or
             not all(d >= 0 and d <= 192
                     for d in last_bytes)):
+        return False'''
+    if (type(data) is not list or
+        not all(d >= 0 and d <= 192
+                for d in last_bytes)):
         return False
     else:
         return True
