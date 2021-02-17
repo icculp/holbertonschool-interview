@@ -46,7 +46,7 @@ def validUTF8(data):
                 '''print(43)'''
                 return False
         except IndexError:
-            print("except")
+            '''print("except")'''
             return False
         '''if data[d] >= 0 and data[d] <= 244:
             pass'''
