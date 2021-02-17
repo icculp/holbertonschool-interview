@@ -9,9 +9,8 @@ def validUTF8(data):
         True if valid else False
     """
     if (type(data) is not list or
-        len(data) == 0 or
         not all(isinstance(d, int) for d in data) or
-            not all(d >= 0 and d <= 127 for d in data)):
+            not all(d >= 1 and d <= 127 for d in data)):
         return False
     else:
         return True
