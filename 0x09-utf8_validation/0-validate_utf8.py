@@ -23,7 +23,7 @@ def validUTF8(data):
     for d in range(len(data)):
         if data[d] >= 0 and data[d] <= 127:
             continue
-        elif data[d] >= 192 and data[d] <= 247:
+        elif data[d] >= 194 and data[d] <= 244:
             continue
         else:
             return False
