@@ -17,13 +17,14 @@ def validUTF8(data):
             not all(d >= 0 and d <= 192
                     for d in last_bytes)):
         return False'''
+    '''data = [245, 129]'''
     if (type(data) is not list or
             not all(isinstance(d, int) for d in data)):
         return False
     d = 0
     while d < len(data):
         try:
-            if data[d] >= 240 and data[d] <= 247:
+            if data[d] >= 240 and data[d] <= 244:
                 for i in range(1, 4):
                     if not (data[d + i] >= 128 and data[d + i] <= 191):
                         return False
@@ -33,7 +34,7 @@ def validUTF8(data):
                     if not (data[d + i] >= 128 and data[d + i] <= 191):
                         return False
                 d + i
-            elif data[d] >= 192 and data[d] <= 223:
+            elif data[d] >= 194 and data[d] <= 223:
                 for i in range(1, 2):
                     if not (data[d + i] >= 128 and data[d + i] <= 191):
                         return False
@@ -45,6 +46,7 @@ def validUTF8(data):
                 '''print(43)'''
                 return False
         except IndexError:
+            print("except")
             return False
         '''if data[d] >= 0 and data[d] <= 244:
             pass'''
