@@ -32,7 +32,7 @@ def validUTF8(data):
                 if not (data[d + i] >= 128 and data[d + 1] <= 191):
                     return False
             d + i
-        if data[d] >= 194 and data[d] <= 223:
+        elif data[d] >= 194 and data[d] <= 223:
             for i in range(1, 2):
                 if not (data[d + i] >= 128 and data[d + 1] <= 191):
                     return False
