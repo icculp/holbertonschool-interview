@@ -22,3 +22,18 @@ print(validUTF8(data), True)
 
 data = [122, 195, 129, 127]
 print(validUTF8(data), True)
+
+data = []
+print(validUTF8(data), True)
+
+data = [0, 129]
+print(validUTF8(data), False)
+
+data = [129, 0]
+print(validUTF8(data), False)
+
+data = [122, 243, 129, 127, 129]
+print(validUTF8(data), False)
+
+data = [122, 243, 129, 129, 129]
+print(validUTF8(data), True)
