@@ -22,26 +22,31 @@ def validUTF8(data):
         return False
     d = 0
     while d < len(data):
-        '''if data[d] >= 240 and data[d] <= 247:
-            for i in range(1, 4):
-                if not (data[d + i] >= 128 and data[d + i] <= 191):
-                    return False
-            d + i
-        elif data[d] >= 224 and data[d] <= 239:
-            for i in range(1, 3):
-                if not (data[d + i] >= 128 and data[d + i] <= 191):
-                    return False
-            d + i
-        elif data[d] >= 192 and data[d] <= 223:
-            for i in range(1, 2):
-                if not (data[d + i] >= 128 and data[d + i] <= 191):
-                    return False
-            d + i
-        elif data[d] >= 0 and data[d] <= 127:
-            pass'''
-        if data[d] >= 0 and data[d] <= 244:
-            pass
-        else:
+        try:
+            if data[d] >= 240 and data[d] <= 247:
+                for i in range(1, 4):
+                    if not (data[d + i] >= 128 and data[d + i] <= 191):
+                        return False
+                d + i
+            elif data[d] >= 224 and data[d] <= 239:
+                for i in range(1, 3):
+                    if not (data[d + i] >= 128 and data[d + i] <= 191):
+                        return False
+                d + i
+            elif data[d] >= 192 and data[d] <= 223:
+                for i in range(1, 2):
+                    if not (data[d + i] >= 128 and data[d + i] <= 191):
+                        return False
+                d + i
+            elif data[d] >= 0 and data[d] <= 127:
+                '''print(41)'''
+                pass
+            else:
+                '''print(43)'''
+                return False
+        except IndexError:
             return False
+        '''if data[d] >= 0 and data[d] <= 244:
+            pass'''
         d += 1
     return True
