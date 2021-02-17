@@ -39,7 +39,7 @@ def validUTF8(data):
             d + i
         elif data[d] >= 0 and data[d] <= 127:
             pass'''
-        if data[d] >= 0 and data[d] <= 247:
+        if data[d] >= 0 and data[d] <= 244:
             pass
         else:
             return False
