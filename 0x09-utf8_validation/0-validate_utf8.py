@@ -20,7 +20,7 @@ def validUTF8(data):
     if (type(data) is not list or
         not all(isinstance(d, int) for d in data)):
         return False
-    if not all((d >= 0 and d <= 128) or
+    if not all((d >= 0 and d <= 127) or
                 (d >= 194 and d <= 244)
                 for d in data):
         return False
