@@ -18,8 +18,10 @@ def validUTF8(data):
                     for d in last_bytes)):
         return False'''
     '''data = [243, 129, 129, 129]'''
+    '''data = []'''
     if (type(data) is not list or
-            not all(isinstance(d, int) for d in data)):
+            not all(isinstance(d, int) for d in data) or
+            len(data) < 1):
         return False
     d = 0
     while d < len(data):
