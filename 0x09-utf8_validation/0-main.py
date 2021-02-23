@@ -18,6 +18,7 @@ data = [243, 129, 129, 129]
 print(validUTF8(data), True)
 
 data = [127, 127, 0]
+print(data)
 print(validUTF8(data), True)
 
 data = [122, 195, 129, 127]
@@ -36,4 +37,13 @@ data = [122, 243, 129, 127, 129]
 print(validUTF8(data), False)
 
 data = [122, 243, 129, 129, 129]
+print(validUTF8(data), True)
+
+data = [634, 755, 641, 641, 641]
+print(validUTF8(data), True)
+
+data = [634, 755, 641, 639, 641]
+print(validUTF8(data), False)
+
+data = [634, 707, 641, 639]
 print(validUTF8(data), True)
