@@ -12,12 +12,12 @@ void left(int *line, size_t size)
 
 	for (i = 0; i < size; i++)
 	{
-		while (line[j] == 0)
+		while (line[j] == 0 && j < size)
 			j++;
-		if (j > size)
+		if (j >= size)
 			break;
 		line[i] = line[j];
-		if (i != j)
+		if (i != j && j < size)
 			line[j] = 0;
 		j++;
 	}
@@ -50,18 +50,28 @@ void right(int *line, size_t size)
 * merge - Reproduce 2048 game on one line, no memory allocation
 * @line: Array of ints containing size elements
 * @size: number of elements to slide
+* @direction: direction
 */
 
-void merge(int *line, size_t size)
+void merge(int *line, size_t size, int direction)
 {
 	size_t i = size;
 
-	(void)line;
-	(void)i;
-	for (i = 1; i < size; i++)
+	if (direction == SLIDE_LEFT)
 	{
-		if (line[i - 1] == line[i])
-			line[i - 1] = line[i - 1] * line[i], line[i] = 0;
+		for (i = 1; i < size; i++)
+		{
+			if (line[i - 1] == line[i] && line[i] != 0)
+				line[i - 1] = line[i - 1] * 2, line[i] = 0;
+		}
+	}
+	if (direction == SLIDE_RIGHT)
+	{
+		for (i = size - 2; (int)i >= 0; i--)
+		{
+			if (line[i + 1] == line[i] && line[i] != 0)
+				line[i + 1] = line[i + 1] * 2, line[i] = 0;
+		}
 	}
 }
 
@@ -76,9 +86,9 @@ void merge(int *line, size_t size)
 int slide_line(int *line, size_t size, int direction)
 {
 	if (direction == SLIDE_LEFT)
-		left(line, size), merge(line, size), left(line, size);
+		left(line, size), merge(line, size, direction), left(line, size);
 	else if (direction == SLIDE_RIGHT)
-		right(line, size), merge(line, size), right(line, size);
+		right(line, size), merge(line, size, direction), right(line, size);
 	else
 		return (0);
 	return (1);

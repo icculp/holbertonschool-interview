@@ -14,6 +14,7 @@
 
 void left(int *line, size_t size);
 void right(int *line, size_t size);
+void merge(int *line, size_t size, int direction);
 int slide_line(int *line, size_t size, int direction);
 
 #endif
