@@ -54,7 +54,7 @@ avl_t *sorted_array_to_avl(int *array, size_t size)
 {
 	avl_t *root = NULL;
 
-	if (array == NULL || size < 1)
+	if (!array || size < 1)
 		return (NULL);
 
 	root = sortedArrayToBST(array, root, 0, size - 1);
