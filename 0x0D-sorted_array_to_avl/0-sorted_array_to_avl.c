@@ -10,6 +10,8 @@ avl_t *newNode(int data)
 	avl_t *node;
 
 	node = malloc(sizeof(avl_t));
+	if (node == NULL)
+		return (NULL);
 	node->n = data;
 	node->parent = NULL;
 	node->left = NULL;
@@ -33,6 +35,7 @@ avl_t *sortedArrayToBST(int arr[], avl_t *parent, int start, int end)
 	if (start > end)
 		return (NULL);
 	mid = (start + end) / 2;
+	printf("smash here");
 	root = newNode(arr[mid]);
 	root->parent = parent;
 	root->left =  sortedArrayToBST(arr, root, start, mid - 1);
@@ -51,7 +54,7 @@ avl_t *sorted_array_to_avl(int *array, size_t size)
 {
 	avl_t *root = NULL;
 
-	if (array == NULL)
+	if (array == NULL || !*array)
 		return (NULL);
 
 	root = sortedArrayToBST(array, root, 0, (int)size - 1);
