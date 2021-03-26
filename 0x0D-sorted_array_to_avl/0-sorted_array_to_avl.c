@@ -32,11 +32,13 @@ avl_t *sortedArrayToBST(int arr[], avl_t *parent, int start, int end)
 	avl_t *root;
 	int mid;
 
-	if (start > end || start < 0)
+	if (start > end)
 		return (NULL);
 	mid = (start + end) / 2;
 	/**printf("smash here");*/
 	root = newNode(arr[mid]);
+	if (!root)
+		return (NULL);
 	root->parent = parent;
 	root->left =  sortedArrayToBST(arr, root, start, mid - 1);
 	root->right = sortedArrayToBST(arr, root, mid + 1, end);
