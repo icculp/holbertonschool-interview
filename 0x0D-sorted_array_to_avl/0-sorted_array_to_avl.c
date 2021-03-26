@@ -32,7 +32,7 @@ avl_t *sortedArrayToBST(int arr[], avl_t *parent, int start, int end)
 	avl_t *root;
 	int mid;
 
-	if (start > end)
+	if (start > end || start < 0)
 		return (NULL);
 	mid = (start + end) / 2;
 	/**printf("smash here");*/
