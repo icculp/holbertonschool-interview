@@ -9,53 +9,49 @@
 
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
-	skiplist_t *ptr, *exp;
+	skiplist_t *ptr = list, *exp;
 	int flag = 1;
 
-	if (list == NULL)
-		return(NULL);
-	(void)value;
-	ptr = list;
 	while (ptr != NULL)
 	{
-		printf("Value checked at index [%d] = [%d]\n", (int)ptr->index, ptr->n);
-		/**printf("while\n");*/
 		if (ptr)
-		{
-			/**printf("23");*/
 			exp = ptr->express;
-			/**printf("25");*/
-		}
 		else
 			return (NULL);
-		/**printf("25");*/
 		if (exp && (value == exp->n))
 			return (exp);
-		else if (value == ptr->n)
+		else if (ptr && value == ptr->n)
+		{
+			printf("Value checked at index [%d] = [%d]\n", (int)ptr->index, ptr->n);
 			return (ptr);
+		}
 		else if (exp && (value > exp->n))
 		{
-			/**printf("34");*/
+			printf("Value checked at index [%d] = [%d]\n", (int)exp->index, exp->n);
 			ptr = exp;
-			/**printf("36");*/
 		}
 		else if (ptr && ptr->next)
 		{
-			/**printf("40");*/
 			if (flag)
 			{
-				printf("Value found between indexes [%d] and [%d]\n", (int)ptr->index, (int)exp->index);
-				flag = 0;
+				if (!exp)
+				{ /** last node not express, find last node */
+					exp = ptr;
+					while (exp->next)
+						exp = exp->next;
+				}
+				printf("Value checked at index [%d] = [%d]\n", (int)exp->index, exp->n);
+				printf("Value found between indexes [%d] and [%d]\n",
+					(int)ptr->index, (int)exp->index), flag = 0;
 			}
-			ptr = ptr->next;
-			/**printf("42");*/
+			else
+			{
+				printf("Value checked at index [%d] = [%d]\n", (int)ptr->index, ptr->n);
+				ptr = ptr->next;
+			}
 		}
 		else
-		{
-			/**printf("ELSE\n");*/
 			return (NULL);
-		}
 	}
-	/**printf("RETURNING\n");*/
-	return(ptr);
+	return (ptr);
 }
