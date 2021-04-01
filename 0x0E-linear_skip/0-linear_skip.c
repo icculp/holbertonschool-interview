@@ -9,43 +9,49 @@
 
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
-	skiplist_t *temp, *temp2;
+	skiplist_t *ptr = list, *exp;
+	int flag = 1;
 
-	if (list == NULL || !*list)
-		return (NULL);
-	temp = list;
-	while (temp->express)
+	while (ptr != NULL)
 	{
-		printf("Value checked at index [%d] = [%d]\n",
-			(int)temp->express->index, temp->express->n);
-		if (temp->express->n >= value)
-			break;
-		temp = temp->express;
+		if (ptr)
+			exp = ptr->express;
+		else
+			return (NULL);
+		if (exp && (value == exp->n))
+			return (exp);
+		else if (ptr && value == ptr->n)
+		{
+			printf("Value checked at index [%d] = [%d]\n", (int)ptr->index, ptr->n);
+			return (ptr);
+		}
+		else if (exp && (value > exp->n))
+		{
+			printf("Value checked at index [%d] = [%d]\n", (int)exp->index, exp->n);
+			ptr = exp;
+		}
+		else if (ptr && ptr->next)
+		{
+			if (flag)
+			{
+				if (!exp)
+				{
+					exp = ptr;
+					while (exp->next)
+						exp = exp->next;
+				}
+				printf("Value checked at index [%d] = [%d]\n", (int)exp->index, exp->n);
+				printf("Value found between indexes [%d] and [%d]\n",
+					(int)ptr->index, (int)exp->index), flag = 0;
+			}
+			else
+			{
+				printf("Value checked at index [%d] = [%d]\n", (int)ptr->index, ptr->n);
+				ptr = ptr->next;
+			}
+		}
+		else
+			return (NULL);
 	}
-	if (temp->express && temp->express->n == value)
-		return (temp->express);
-	if (temp->express)
-		printf("Value found between indexes [%d] and [%d]\n",
-			(int)temp->index, (int)temp->express->index);
-	else
-	{
-		temp2 = temp;
-		while (temp2->next)
-			temp2 = temp2->next;
-		printf("Value found between indexes [%d] and [%d]\n",
-			(int)temp->index, (int)temp2->index);
-	}
-	while (temp->next && temp->next->n < value)
-	{
-		printf("Value checked at index [%d] = [%d]\n", (int)temp->index, temp->n);
-		temp = temp->next;
-	}
-	printf("Value checked at index [%d] = [%d]\n", (int)temp->index, temp->n);
-	if (temp->next && temp->next->n == value)
-	{
-		printf("Value checked at index [%d] = [%d]\n",
-			(int)temp->next->index, temp->next->n);
-		return (temp->next);
-	}
-	return (NULL);
+	return (ptr);
 }
