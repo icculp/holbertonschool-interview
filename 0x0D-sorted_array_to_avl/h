@@ -1,0 +1,958 @@
+    <!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+    <title>
+        Points of interest - Historic66    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.historic66.com/templates/data/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.historic66.com/templates/data/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.historic66.com/templates/data/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.historic66.com/templates/data/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://www.historic66.com/templates/data/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://www.historic66.com/templates/data/css/styles.css?ver=1.3" rel="stylesheet" type="text/css">
+    <link href="https://www.historic66.com/templates/data/fonts/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="https://www.historic66.com/templates/data/css/select2.min.css" rel="stylesheet" type="text/css">
+    <link href="https://www.historic66.com/templates/data/css/swiper.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+
+    <script type="text/javascript" src="https://www.historic66.com/templates/data/js/jquery-2.2.4.js"></script>
+    <script src="https://www.historic66.com/templates/data/js/swiper.min.js" type="text/javascript"></script>
+
+    <script src="https://www.historic66.com/templates/data/js/lightbox.js" type="text/javascript"></script>
+    <script src="https://www.historic66.com/templates/data/js/scripts.js?ver=1.1" type="text/javascript"></script>
+    <script src="https://www.historic66.com/templates/data/js/select2.min.js" type="text/javascript"></script>
+    <script src="https://www.historic66.com/templates/data/js/calendar.js" type="text/javascript"></script>
+
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core-legacy.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service-legacy.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NX30X6F9RX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NX30X6F9RX');
+</script>
+<script data-ad-client="ca-pub-1507391579588391" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>    
+	<!-- This site is optimized with the Yoast SEO plugin v15.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.historic66.com/points-of-interest/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Points of interest - Historic66" />
+	<meta property="og:url" content="https://www.historic66.com/points-of-interest/" />
+	<meta property="og:site_name" content="Historic66" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.historic66.com/#website","url":"https://www.historic66.com/","name":"Historic66","description":"Just another WordPress site","potentialAction":[{"@type":"SearchAction","target":"https://www.historic66.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.historic66.com/points-of-interest/#webpage","url":"https://www.historic66.com/points-of-interest/","name":"Points of interest - Historic66","isPartOf":{"@id":"https://www.historic66.com/#website"},"datePublished":"2020-12-09T13:32:28+00:00","dateModified":"2020-12-09T13:32:28+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.historic66.com/points-of-interest/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.historic66.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<!-- historic66.com is managing ads with Advanced Ads 1.23.0 – https://wpadvancedads.com/ --><script>
+						advanced_ads_ready=function(){var fns=[],listener,doc=typeof document==="object"&&document,hack=doc&&doc.documentElement.doScroll,domContentLoaded="DOMContentLoaded",loaded=doc&&(hack?/^loaded|^c/:/^loaded|^i|^c/).test(doc.readyState);if(!loaded&&doc){listener=function(){doc.removeEventListener(domContentLoaded,listener);window.removeEventListener("load",listener);loaded=1;while(listener=fns.shift())listener()};doc.addEventListener(domContentLoaded,listener);window.addEventListener("load",listener)}return function(fn){loaded?setTimeout(fn,0):fns.push(fn)}}();
+						</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='sb_instagram_styles-css'  href='https://www.historic66.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=2.6.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.historic66.com/wp-includes/css/dist/block-library/style.min.css?ver=5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-notice-front-css'  href='https://www.historic66.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=5.6' type='text/css' media='all' />
+<script type='text/javascript' id='cookie-notice-front-js-extra'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxUrl":"https:\/\/www.historic66.com\/wp-admin\/admin-ajax.php","nonce":"a66917c4fb","hideEffect":"fade","position":"bottom","onScroll":"0","onScrollOffset":"100","onClick":"0","cookieName":"cookie_notice_accepted","cookieTime":"2592000","cookieTimeRejected":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"0","cache":"0","refuse":"0","revokeCookies":"0","revokeCookiesOpt":"automatic","secure":"1","coronabarActive":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.historic66.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.3.2' id='cookie-notice-front-js'></script>
+<link rel="https://api.w.org/" href="https://www.historic66.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.historic66.com/wp-json/wp/v2/pages/153" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.historic66.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.historic66.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6" />
+<link rel='shortlink' href='https://www.historic66.com/?p=153' />
+<link rel="alternate" type="application/json+oembed" href="https://www.historic66.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.historic66.com%2Fpoints-of-interest%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.historic66.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.historic66.com%2Fpoints-of-interest%2F&#038;format=xml" />
+</head>
+
+<body>
+        <h1 class="screenReaderElement">
+        Points of interest    </h1>
+    <header>
+        <div class="lower-bar">
+            <div class="padding-header">
+                                                    <a href="https://www.historic66.com" class="logo" style="background-image: url('https://www.historic66.com/wp-content/uploads/2020/12/h66l.svg');"></a>
+                                                                                    <nav aria-label="Navigation" role="navigation">
+                        <h2 class="screenReaderElement">Navigation</h2>
+                        <ul>
+                                                                                                <li>
+                                        <a href="https://www.historic66.com/turn-by-turn/"  class="hover-underline-show" >Turn by turn</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://www.historic66.com/maps-books/"  class="hover-underline-show" >Books & Maps</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://www.historic66.com/points-of-interest/"  class="hover-underline-show" >POI</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://www.historic66.com/photo/"  class="hover-underline-show" >Gallery</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://www.historic66.com/faq/"  class="hover-underline-show" >Faq</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://www.historic66.com/links/"  class="hover-underline-show" >Links</a>
+                                    </li>
+                                                                                        <li>
+                                <a href="#" data-target="search" class="search" title="Search"></a>
+                            </li>
+                        </ul>
+                        <div class="burger-content">
+                            <form method="GET" class="form-search">
+                                <div class="relative-block">
+                                    <input type="text" name="search" placeholder="Search" required />
+                                    <button type="submit" class="search btn">Search</button>
+                                </div>
+                            </form>
+                                                                                                                </div>
+                    </nav>
+                                <div class="hamburger-block">
+                    <span class="hamburger"></span>
+                </div>
+                                                            <a href="https://www.historic66.com/" class="map-click" title="Historic66">
+                            <div class="map" style="background-image: url('https://www.historic66.com/wp-content/uploads/2020/12/map-header.svg');"></div>
+                                                    </a>
+                                                </div>
+        </div>
+        <div class="submenu search" id="search">
+    <form action="https://www.historic66.com" method="GET" class="form-search">
+        <h3>Search in Historic66</h3>
+        <div class="relative-block">
+            <input type="text" name="s" placeholder="Search" required />
+            <button type="submit" class="search btn">Search</button>
+        </div>
+    </form>
+</div>
+<!--<div class="submenu" id="old-headline">
+    <div class="flex-blocks old-headline">
+        <div class="flex-block table-help left">
+            <div class="help-cell">
+                <h2>Old headline version</h2>
+                <p>... provides free information<br />
+                    for all those who want to learn more about the legendarz Route 66
+                </p>
+                <a href="#" class="btn">More about us</a>
+            </div>
+        </div>
+        <div class="flex-block table-help right" style="background-image: url('data/images/old-headline.jpg');">
+            <div class="help-cell">
+                <div class="margin">
+                    <h2>Historic 66</h2>
+                    <p>
+                        Since 1926, driving down Route 66 has been the experience of a lifetime for travelers, adventurers, desperados, and dreamers. The Historic 66 website provides free information for all those who want to learn more about the legendary Route 66.
+                    </p>
+                    <a href="#" class="btn">More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+
+
+                                                                                                                            
+<!--<div class="submenu" id="turn-by-turn">
+    <div class="turn-by-turn">
+        <a href="#" class="button-map left"><span>West</span></a>
+        <a href="#" class="button-map right"><span>East</span></a>
+        <div id="map"></div>
+    </div>
+</div>-->    </header>
+
+        <main role="main">
+    <!-- filter choosen -->
+    <section class="yellow-section">
+        <div class="padding-main">
+            <h2>Points of interest</h2>
+            <div class="help-block">
+                <a href="https://www.historic66.com" class="home-button"></a>
+                <a href="https://www.historic66.com/points-of-interest/">Points of interest</a>
+                <span class="active">Filter</span>
+            </div>
+        </div>
+    </section>
+    <section class="content-section">
+        <div class="padding-main">
+            <div class="change-direction">
+                <span>Ordered from Eastbound to Westbound<a href="#">Change</a></span>
+            </div>
+            <div class="tabs-block filter-block">
+                <div class="tabs-panes-four">
+                    <div class="tab-nav">
+                        <a href="https://www.historic66.com/points-of-interest/"><span>Overview</span></a>
+                        <a href="https://www.historic66.com/points-of-interest/?filter=active" class="active"><span>Advanced filter</span></a>
+                    </div>
+                    <div class="tabs-panes content-block-main border-content">
+                        <div class="left-content content-ajax">
+                            <h3 class="filter-show">Filter by: <span class="mobile-filter"></span></h3>
+                            <form action="" method="GET" class="padding-filter" enctype="multipart/form-data">
+                                <input type="hidden" name="filter" value="active" />
+                                <div class="parts flex-blocks">
+                                    <div class="flex-block">
+                                        <h4>States & cities</h4>
+                                                                                                                                                                                                                                                                        <div class="form-inline">
+                                                    <input type="checkbox" class="state-check" name="state[]" id="state1" value="california" />
+                                                    <label for="state1">California</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" class="state-check" name="state[]" id="state2" value="arizona" />
+                                                    <label for="state2">Arizona</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" class="state-check" name="state[]" id="state3" value="new-mexico" />
+                                                    <label for="state3">New Mexico</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" class="state-check" name="state[]" id="state4" value="texas" />
+                                                    <label for="state4">Texas</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" class="state-check" name="state[]" id="state5" value="oklahoma" />
+                                                    <label for="state5">Oklahoma</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" class="state-check" name="state[]" id="state6" value="kansas" />
+                                                    <label for="state6">Kansas</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" class="state-check" name="state[]" id="state7" value="missouri" />
+                                                    <label for="state7">Missouri</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" class="state-check" name="state[]" id="state8" value="illinois" />
+                                                    <label for="state8">Illinois</label>
+                                                </div>
+                                                                                                                        </div>
+                                                                        <div class="flex-block">
+                                        <h4>Categories</h4>
+                                                                                                                                                                                                                                <div class="form-inline">
+                                                    <input type="checkbox" name="type[]" id="type1" value="abandoned-place" />
+                                                    <label for="type1">Abandoned Place</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" name="type[]" id="type2" value="attraction" />
+                                                    <label for="type2">Attraction</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" name="type[]" id="type3" value="closed" />
+                                                    <label for="type3">Closed</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" name="type[]" id="type4" value="landmark" />
+                                                    <label for="type4">Landmark</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" name="type[]" id="type5" value="motel" />
+                                                    <label for="type5">Motel</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" name="type[]" id="type6" value="museum" />
+                                                    <label for="type6">Museum</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" name="type[]" id="type7" value="restaurant" />
+                                                    <label for="type7">Restaurant</label>
+                                                </div>
+                                                                                                                                            <div class="form-inline">
+                                                    <input type="checkbox" name="type[]" id="type8" value="sign" />
+                                                    <label for="type8">Sign</label>
+                                                </div>
+                                                                                                                        </div>
+                                </div>
+                                <!--                                <div class="parts flex-blocks">
+                                    <div class="flex-block">
+                                        <h4>Cities from</h4>
+                                                                                    <select class="multiple-select from-city" name="from-city">
+                                                 multiple="multiple" 
+                                                <option default disabled selected>Type...</option>
+                                                                                                    <option value="0" data-target="0">Chicago</option>
+                                                                                                    <option value="9" data-target="1">Cicero</option>
+                                                                                                    <option value="11" data-target="2">McCook</option>
+                                                                                                    <option value="14" data-target="3">Willowbrook</option>
+                                                                                                    <option value="15" data-target="4">Romeoville</option>
+                                                                                                    <option value="17" data-target="5">Joliet</option>
+                                                                                                    <option value="27" data-target="6">Elwood</option>
+                                                                                                    <option value="31" data-target="7">Wilmington</option>
+                                                                                                    <option value="38" data-target="8">Braidwood</option>
+                                                                                                    <option value="40" data-target="9">Godley</option>
+                                                                                                    <option value="41" data-target="10">Gardner</option>
+                                                                                                    <option value="45" data-target="11">Dwight</option>
+                                                                                                    <option value="53" data-target="12">Odell</option>
+                                                                                                    <option value="56" data-target="13">Pontiac</option>
+                                                                                                    <option value="67" data-target="14">Chenoa</option>
+                                                                                                    <option value="70" data-target="15">Lexington</option>
+                                                                                                    <option value="76" data-target="16">Towanda</option>
+                                                                                                    <option value="79" data-target="17">Normal</option>
+                                                                                                    <option value="82" data-target="18">Bloomington</option>
+                                                                                                    <option value="84" data-target="19">Funks Grove</option>
+                                                                                                    <option value="85" data-target="20">Shirley</option>
+                                                                                                    <option value="86" data-target="21">McLean</option>
+                                                                                                    <option value="92" data-target="22">Atlanta</option>
+                                                                                                    <option value="101" data-target="23">Lincoln</option>
+                                                                                                    <option value="108" data-target="24">Broadwell</option>
+                                                                                                    <option value="110" data-target="25">Elkhart</option>
+                                                                                                    <option value="115" data-target="26">Williamsville</option>
+                                                                                                    <option value="119" data-target="27">Springfield</option>
+                                                                                                    <option value="134" data-target="28">Glenarm</option>
+                                                                                                    <option value="136" data-target="29">Chatham</option>
+                                                                                                    <option value="137" data-target="30">Auburn</option>
+                                                                                                    <option value="138" data-target="31">Raymond</option>
+                                                                                                    <option value="140" data-target="32">Farmersville</option>
+                                                                                                    <option value="141" data-target="33">Litchfield</option>
+                                                                                                    <option value="147" data-target="34">Girard</option>
+                                                                                                    <option value="150" data-target="35">Carlinville</option>
+                                                                                                    <option value="156" data-target="36">Gillespie</option>
+                                                                                                    <option value="157" data-target="37">Sawyerville</option>
+                                                                                                    <option value="158" data-target="38">Mt Olive</option>
+                                                                                                    <option value="160" data-target="39">Staunton</option>
+                                                                                                    <option value="164" data-target="40">Livingston</option>
+                                                                                                    <option value="165" data-target="41">Worden</option>
+                                                                                                    <option value="166" data-target="42">Hamel</option>
+                                                                                                    <option value="167" data-target="43">Edwardsville</option>
+                                                                                                    <option value="168" data-target="44">Collinsville</option>
+                                                                                                    <option value="171" data-target="45">Granite City</option>
+                                                                                                    <option value="181" data-target="46">Venice</option>
+                                                                                                    <option value="182" data-target="47">St. Louis</option>
+                                                                                                    <option value="193" data-target="48">Webster Groves</option>
+                                                                                                    <option value="196" data-target="49">Brentwood</option>
+                                                                                                    <option value="197" data-target="50">Kirkwood</option>
+                                                                                                    <option value="198" data-target="51">Glencoe</option>
+                                                                                                    <option value="199" data-target="52">Eureka</option>
+                                                                                                    <option value="203" data-target="53">Pacific</option>
+                                                                                                    <option value="206" data-target="54">Gray Summit</option>
+                                                                                                    <option value="210" data-target="55">Villa Ridge</option>
+                                                                                                    <option value="213" data-target="56">St Clair</option>
+                                                                                                    <option value="215" data-target="57">Stanton</option>
+                                                                                                    <option value="217" data-target="58">Sullivan</option>
+                                                                                                    <option value="220" data-target="59">Bourbon</option>
+                                                                                                    <option value="221" data-target="60">Leasburg</option>
+                                                                                                    <option value="223" data-target="61">Cuba</option>
+                                                                                                    <option value="239" data-target="62">Fanning</option>
+                                                                                                    <option value="241" data-target="63">St James</option>
+                                                                                                    <option value="243" data-target="64">Rolla</option>
+                                                                                                    <option value="248" data-target="65">Newburg</option>
+                                                                                                    <option value="249" data-target="66">Arlington</option>
+                                                                                                    <option value="250" data-target="67">Jerome</option>
+                                                                                                    <option value="251" data-target="68">Devils Elbow</option>
+                                                                                                    <option value="255" data-target="69">St Robert</option>
+                                                                                                    <option value="260" data-target="70">Waynesville</option>
+                                                                                                    <option value="266" data-target="71">Richland</option>
+                                                                                                    <option value="268" data-target="72">Lebanon</option>
+                                                                                                    <option value="273" data-target="73">Phillipsburg</option>
+                                                                                                    <option value="275" data-target="74">Conway</option>
+                                                                                                    <option value="276" data-target="75">Niangue</option>
+                                                                                                    <option value="277" data-target="76">Marshfield</option>
+                                                                                                    <option value="279" data-target="77">Strafford</option>
+                                                                                                    <option value="301" data-target="78">Halltown</option>
+                                                                                                    <option value="302" data-target="79">Everton</option>
+                                                                                                    <option value="303" data-target="80">Miller</option>
+                                                                                                    <option value="305" data-target="81">Heatonville</option>
+                                                                                                    <option value="306" data-target="82">Albatross</option>
+                                                                                                    <option value="308" data-target="83">Avilla</option>
+                                                                                                    <option value="311" data-target="84">Carthage</option>
+                                                                                                    <option value="322" data-target="85">Carterville</option>
+                                                                                                    <option value="325" data-target="86">Webb City</option>
+                                                                                                    <option value="329" data-target="87">Joplin</option>
+                                                                                                    <option value="342" data-target="88">Picher</option>
+                                                                                                    <option value="343" data-target="89">Commerce</option>
+                                                                                                    <option value="349" data-target="90">Miami</option>
+                                                                                                    <option value="355" data-target="91">Afton</option>
+                                                                                                    <option value="359" data-target="92">Vinita</option>
+                                                                                                    <option value="366" data-target="93">Chelsea</option>
+                                                                                                    <option value="371" data-target="94">Foyil</option>
+                                                                                                    <option value="373" data-target="95">Claremore</option>
+                                                                                                    <option value="378" data-target="96">Verdigris</option>
+                                                                                                    <option value="379" data-target="97">Catoosa</option>
+                                                                                                    <option value="383" data-target="98">Tulsa</option>
+                                                                                                    <option value="414" data-target="99">Sapulpa</option>
+                                                                                                    <option value="424" data-target="100">Bristow</option>
+                                                                                                    <option value="427" data-target="101">Depew</option>
+                                                                                                    <option value="428" data-target="102">Stroud</option>
+                                                                                                    <option value="432" data-target="103">Chandler</option>
+                                                                                                    <option value="439" data-target="104">Warwick</option>
+                                                                                                    <option value="440" data-target="105">Luther</option>
+                                                                                                    <option value="443" data-target="106">Arcadia</option>
+                                                                                                    <option value="447" data-target="107">Oklahoma City</option>
+                                                                                                    <option value="458" data-target="108">Bethany</option>
+                                                                                                    <option value="461" data-target="109">Yukon</option>
+                                                                                                    <option value="465" data-target="110">El Reno</option>
+                                                                                                    <option value="473" data-target="111">Calumet</option>
+                                                                                                    <option value="474" data-target="112">Geary</option>
+                                                                                                    <option value="475" data-target="113">Hinton</option>
+                                                                                                    <option value="477" data-target="114">Bridgeport</option>
+                                                                                                    <option value="478" data-target="115">Hydro</option>
+                                                                                                    <option value="479" data-target="116">Weatherford</option>
+                                                                                                    <option value="483" data-target="117">Clinton</option>
+                                                                                                    <option value="488" data-target="118">Foss</option>
+                                                                                                    <option value="490" data-target="119">Canute</option>
+                                                                                                    <option value="492" data-target="120">Elk City</option>
+                                                                                                    <option value="497" data-target="121">Sayre</option>
+                                                                                                    <option value="499" data-target="122">Erick</option>
+                                                                                                    <option value="505" data-target="123">Texola</option>
+                                                                                                    <option value="507" data-target="124">Galena</option>
+                                                                                                    <option value="518" data-target="125">Riverton</option>
+                                                                                                    <option value="520" data-target="126">Baxter Springs</option>
+                                                                                                    <option value="523" data-target="127">Shamrock</option>
+                                                                                                    <option value="546" data-target="128">Alanreed</option>
+                                                                                                    <option value="549" data-target="129">Clarendon</option>
+                                                                                                    <option value="551" data-target="130">Groom</option>
+                                                                                                    <option value="554" data-target="131">Panhandle</option>
+                                                                                                    <option value="556" data-target="132">Amarillo</option>
+                                                                                                    <option value="577" data-target="133">Wildorado</option>
+                                                                                                    <option value="578" data-target="134">Vega</option>
+                                                                                                    <option value="587" data-target="135">Adrian</option>
+                                                                                                    <option value="594" data-target="136">Glenrio</option>
+                                                                                                    <option value="600" data-target="137">San Jon</option>
+                                                                                                    <option value="606" data-target="138">Bard</option>
+                                                                                                    <option value="608" data-target="139">Tucumcari</option>
+                                                                                                    <option value="645" data-target="140">Newkirk</option>
+                                                                                                    <option value="647" data-target="141">Santa Rosa</option>
+                                                                                                    <option value="659" data-target="142">Las Vegas</option>
+                                                                                                    <option value="669" data-target="143">Montezuma</option>
+                                                                                                    <option value="670" data-target="144">San Jose</option>
+                                                                                                    <option value="672" data-target="145">Pecos</option>
+                                                                                                    <option value="675" data-target="146">Glorieta</option>
+                                                                                                    <option value="676" data-target="147">Santa Fe</option>
+                                                                                                    <option value="687" data-target="148">Clines Corners</option>
+                                                                                                    <option value="688" data-target="149">Moriarty</option>
+                                                                                                    <option value="692" data-target="150">Edgewood</option>
+                                                                                                    <option value="695" data-target="151">Carnuel</option>
+                                                                                                    <option value="696" data-target="152">Tijeras</option>
+                                                                                                    <option value="698" data-target="153">Albuquerque</option>
+                                                                                                    <option value="727" data-target="154">Los Ranchos De Albuquerque</option>
+                                                                                                    <option value="744" data-target="155">Los Lunas</option>
+                                                                                                    <option value="746" data-target="156">New Laguna</option>
+                                                                                                    <option value="747" data-target="157">Casa Blanca</option>
+                                                                                                    <option value="750" data-target="158">Cubero</option>
+                                                                                                    <option value="751" data-target="159">Acoma Pueblo</option>
+                                                                                                    <option value="753" data-target="160">San Fidel</option>
+                                                                                                    <option value="759" data-target="161">Grants</option>
+                                                                                                    <option value="775" data-target="162">Prewitt</option>
+                                                                                                    <option value="776" data-target="163">Thoreau</option>
+                                                                                                    <option value="777" data-target="164">Continental Divide</option>
+                                                                                                    <option value="779" data-target="165">Gallup</option>
+                                                                                                    <option value="808" data-target="166">Lupton</option>
+                                                                                                    <option value="815" data-target="167">Houck</option>
+                                                                                                    <option value="819" data-target="168">Sanders</option>
+                                                                                                    <option value="820" data-target="169">Petrified Forest National Park</option>
+                                                                                                    <option value="823" data-target="170">Holbrook</option>
+                                                                                                    <option value="854" data-target="171">Joseph City</option>
+                                                                                                    <option value="858" data-target="172">Winslow</option>
+                                                                                                    <option value="869" data-target="173">Two Guns</option>
+                                                                                                    <option value="874" data-target="174">Canyon Diablo</option>
+                                                                                                    <option value="875" data-target="175">Flagstaff</option>
+                                                                                                    <option value="891" data-target="176">Parks</option>
+                                                                                                    <option value="892" data-target="177">Williams</option>
+                                                                                                    <option value="923" data-target="178">Ash Fork</option>
+                                                                                                    <option value="933" data-target="179">Seligman</option>
+                                                                                                    <option value="953" data-target="180">Peach Springs</option>
+                                                                                                    <option value="957" data-target="181">Truxton</option>
+                                                                                                    <option value="960" data-target="182">Valentine</option>
+                                                                                                    <option value="961" data-target="183">Hackberry</option>
+                                                                                                    <option value="963" data-target="184">Kingman</option>
+                                                                                                    <option value="992" data-target="185">Golden Valley</option>
+                                                                                                    <option value="996" data-target="186">Oatman</option>
+                                                                                                    <option value="1013" data-target="187">Golden Shores</option>
+                                                                                                    <option value="1016" data-target="188">Topock</option>
+                                                                                                    <option value="1020" data-target="189">Needles</option>
+                                                                                                    <option value="1040" data-target="190">Goffs</option>
+                                                                                                    <option value="1042" data-target="191">Fenner</option>
+                                                                                                    <option value="1043" data-target="192">Essex</option>
+                                                                                                    <option value="1044" data-target="193">Chambless</option>
+                                                                                                    <option value="1049" data-target="194">Amboy</option>
+                                                                                                    <option value="1053" data-target="195">Ludlow</option>
+                                                                                                    <option value="1056" data-target="196">Newberry Springs</option>
+                                                                                                    <option value="1062" data-target="197">Daggett</option>
+                                                                                                    <option value="1068" data-target="198">Barstow</option>
+                                                                                                    <option value="1078" data-target="199">Lenwood</option>
+                                                                                                    <option value="1079" data-target="200">Hodge</option>
+                                                                                                    <option value="1080" data-target="201">Oro Grande</option>
+                                                                                                    <option value="1090" data-target="202">Victorville</option>
+                                                                                                    <option value="1097" data-target="203">Hesperia</option>
+                                                                                                    <option value="1099" data-target="204">San Bernardino</option>
+                                                                                                    <option value="1104" data-target="205">Rancho Cucamonga</option>
+                                                                                                    <option value="1108" data-target="206">Upland</option>
+                                                                                                    <option value="1110" data-target="207">Claremont</option>
+                                                                                                    <option value="1111" data-target="208">Pomona</option>
+                                                                                                    <option value="1112" data-target="209">Glendora</option>
+                                                                                                    <option value="1113" data-target="210">Azusa</option>
+                                                                                                    <option value="1114" data-target="211">Duarte</option>
+                                                                                                    <option value="1115" data-target="212">Monrovia</option>
+                                                                                                    <option value="1119" data-target="213">Pasadena</option>
+                                                                                                    <option value="1127" data-target="214">South Pasadena</option>
+                                                                                                    <option value="1128" data-target="215">Los Angeles</option>
+                                                                                                    <option value="1135" data-target="216">Hollywood</option>
+                                                                                                    <option value="1137" data-target="217">West Hollywood</option>
+                                                                                                    <option value="1141" data-target="218">Santa Monica</option>
+                                                                                            </select>
+                                                                            </div>
+                                    <div class="flex-block">
+                                        <h4>Cities from</h4>
+                                        <select class="multiple-select to-city" name="to-city">
+                                            <option default disabled selected>Type...</option>
+                                                                                            <option value="0" data-target="0">Chicago</option>
+                                                                                            <option value="9" data-target="1">Cicero</option>
+                                                                                            <option value="11" data-target="2">McCook</option>
+                                                                                            <option value="14" data-target="3">Willowbrook</option>
+                                                                                            <option value="15" data-target="4">Romeoville</option>
+                                                                                            <option value="17" data-target="5">Joliet</option>
+                                                                                            <option value="27" data-target="6">Elwood</option>
+                                                                                            <option value="31" data-target="7">Wilmington</option>
+                                                                                            <option value="38" data-target="8">Braidwood</option>
+                                                                                            <option value="40" data-target="9">Godley</option>
+                                                                                            <option value="41" data-target="10">Gardner</option>
+                                                                                            <option value="45" data-target="11">Dwight</option>
+                                                                                            <option value="53" data-target="12">Odell</option>
+                                                                                            <option value="56" data-target="13">Pontiac</option>
+                                                                                            <option value="67" data-target="14">Chenoa</option>
+                                                                                            <option value="70" data-target="15">Lexington</option>
+                                                                                            <option value="76" data-target="16">Towanda</option>
+                                                                                            <option value="79" data-target="17">Normal</option>
+                                                                                            <option value="82" data-target="18">Bloomington</option>
+                                                                                            <option value="84" data-target="19">Funks Grove</option>
+                                                                                            <option value="85" data-target="20">Shirley</option>
+                                                                                            <option value="86" data-target="21">McLean</option>
+                                                                                            <option value="92" data-target="22">Atlanta</option>
+                                                                                            <option value="101" data-target="23">Lincoln</option>
+                                                                                            <option value="108" data-target="24">Broadwell</option>
+                                                                                            <option value="110" data-target="25">Elkhart</option>
+                                                                                            <option value="115" data-target="26">Williamsville</option>
+                                                                                            <option value="119" data-target="27">Springfield</option>
+                                                                                            <option value="134" data-target="28">Glenarm</option>
+                                                                                            <option value="136" data-target="29">Chatham</option>
+                                                                                            <option value="137" data-target="30">Auburn</option>
+                                                                                            <option value="138" data-target="31">Raymond</option>
+                                                                                            <option value="140" data-target="32">Farmersville</option>
+                                                                                            <option value="141" data-target="33">Litchfield</option>
+                                                                                            <option value="147" data-target="34">Girard</option>
+                                                                                            <option value="150" data-target="35">Carlinville</option>
+                                                                                            <option value="156" data-target="36">Gillespie</option>
+                                                                                            <option value="157" data-target="37">Sawyerville</option>
+                                                                                            <option value="158" data-target="38">Mt Olive</option>
+                                                                                            <option value="160" data-target="39">Staunton</option>
+                                                                                            <option value="164" data-target="40">Livingston</option>
+                                                                                            <option value="165" data-target="41">Worden</option>
+                                                                                            <option value="166" data-target="42">Hamel</option>
+                                                                                            <option value="167" data-target="43">Edwardsville</option>
+                                                                                            <option value="168" data-target="44">Collinsville</option>
+                                                                                            <option value="171" data-target="45">Granite City</option>
+                                                                                            <option value="181" data-target="46">Venice</option>
+                                                                                            <option value="182" data-target="47">St. Louis</option>
+                                                                                            <option value="193" data-target="48">Webster Groves</option>
+                                                                                            <option value="196" data-target="49">Brentwood</option>
+                                                                                            <option value="197" data-target="50">Kirkwood</option>
+                                                                                            <option value="198" data-target="51">Glencoe</option>
+                                                                                            <option value="199" data-target="52">Eureka</option>
+                                                                                            <option value="203" data-target="53">Pacific</option>
+                                                                                            <option value="206" data-target="54">Gray Summit</option>
+                                                                                            <option value="210" data-target="55">Villa Ridge</option>
+                                                                                            <option value="213" data-target="56">St Clair</option>
+                                                                                            <option value="215" data-target="57">Stanton</option>
+                                                                                            <option value="217" data-target="58">Sullivan</option>
+                                                                                            <option value="220" data-target="59">Bourbon</option>
+                                                                                            <option value="221" data-target="60">Leasburg</option>
+                                                                                            <option value="223" data-target="61">Cuba</option>
+                                                                                            <option value="239" data-target="62">Fanning</option>
+                                                                                            <option value="241" data-target="63">St James</option>
+                                                                                            <option value="243" data-target="64">Rolla</option>
+                                                                                            <option value="248" data-target="65">Newburg</option>
+                                                                                            <option value="249" data-target="66">Arlington</option>
+                                                                                            <option value="250" data-target="67">Jerome</option>
+                                                                                            <option value="251" data-target="68">Devils Elbow</option>
+                                                                                            <option value="255" data-target="69">St Robert</option>
+                                                                                            <option value="260" data-target="70">Waynesville</option>
+                                                                                            <option value="266" data-target="71">Richland</option>
+                                                                                            <option value="268" data-target="72">Lebanon</option>
+                                                                                            <option value="273" data-target="73">Phillipsburg</option>
+                                                                                            <option value="275" data-target="74">Conway</option>
+                                                                                            <option value="276" data-target="75">Niangue</option>
+                                                                                            <option value="277" data-target="76">Marshfield</option>
+                                                                                            <option value="279" data-target="77">Strafford</option>
+                                                                                            <option value="301" data-target="78">Halltown</option>
+                                                                                            <option value="302" data-target="79">Everton</option>
+                                                                                            <option value="303" data-target="80">Miller</option>
+                                                                                            <option value="305" data-target="81">Heatonville</option>
+                                                                                            <option value="306" data-target="82">Albatross</option>
+                                                                                            <option value="308" data-target="83">Avilla</option>
+                                                                                            <option value="311" data-target="84">Carthage</option>
+                                                                                            <option value="322" data-target="85">Carterville</option>
+                                                                                            <option value="325" data-target="86">Webb City</option>
+                                                                                            <option value="329" data-target="87">Joplin</option>
+                                                                                            <option value="342" data-target="88">Picher</option>
+                                                                                            <option value="343" data-target="89">Commerce</option>
+                                                                                            <option value="349" data-target="90">Miami</option>
+                                                                                            <option value="355" data-target="91">Afton</option>
+                                                                                            <option value="359" data-target="92">Vinita</option>
+                                                                                            <option value="366" data-target="93">Chelsea</option>
+                                                                                            <option value="371" data-target="94">Foyil</option>
+                                                                                            <option value="373" data-target="95">Claremore</option>
+                                                                                            <option value="378" data-target="96">Verdigris</option>
+                                                                                            <option value="379" data-target="97">Catoosa</option>
+                                                                                            <option value="383" data-target="98">Tulsa</option>
+                                                                                            <option value="414" data-target="99">Sapulpa</option>
+                                                                                            <option value="424" data-target="100">Bristow</option>
+                                                                                            <option value="427" data-target="101">Depew</option>
+                                                                                            <option value="428" data-target="102">Stroud</option>
+                                                                                            <option value="432" data-target="103">Chandler</option>
+                                                                                            <option value="439" data-target="104">Warwick</option>
+                                                                                            <option value="440" data-target="105">Luther</option>
+                                                                                            <option value="443" data-target="106">Arcadia</option>
+                                                                                            <option value="447" data-target="107">Oklahoma City</option>
+                                                                                            <option value="458" data-target="108">Bethany</option>
+                                                                                            <option value="461" data-target="109">Yukon</option>
+                                                                                            <option value="465" data-target="110">El Reno</option>
+                                                                                            <option value="473" data-target="111">Calumet</option>
+                                                                                            <option value="474" data-target="112">Geary</option>
+                                                                                            <option value="475" data-target="113">Hinton</option>
+                                                                                            <option value="477" data-target="114">Bridgeport</option>
+                                                                                            <option value="478" data-target="115">Hydro</option>
+                                                                                            <option value="479" data-target="116">Weatherford</option>
+                                                                                            <option value="483" data-target="117">Clinton</option>
+                                                                                            <option value="488" data-target="118">Foss</option>
+                                                                                            <option value="490" data-target="119">Canute</option>
+                                                                                            <option value="492" data-target="120">Elk City</option>
+                                                                                            <option value="497" data-target="121">Sayre</option>
+                                                                                            <option value="499" data-target="122">Erick</option>
+                                                                                            <option value="505" data-target="123">Texola</option>
+                                                                                            <option value="507" data-target="124">Galena</option>
+                                                                                            <option value="518" data-target="125">Riverton</option>
+                                                                                            <option value="520" data-target="126">Baxter Springs</option>
+                                                                                            <option value="523" data-target="127">Shamrock</option>
+                                                                                            <option value="546" data-target="128">Alanreed</option>
+                                                                                            <option value="549" data-target="129">Clarendon</option>
+                                                                                            <option value="551" data-target="130">Groom</option>
+                                                                                            <option value="554" data-target="131">Panhandle</option>
+                                                                                            <option value="556" data-target="132">Amarillo</option>
+                                                                                            <option value="577" data-target="133">Wildorado</option>
+                                                                                            <option value="578" data-target="134">Vega</option>
+                                                                                            <option value="587" data-target="135">Adrian</option>
+                                                                                            <option value="594" data-target="136">Glenrio</option>
+                                                                                            <option value="600" data-target="137">San Jon</option>
+                                                                                            <option value="606" data-target="138">Bard</option>
+                                                                                            <option value="608" data-target="139">Tucumcari</option>
+                                                                                            <option value="645" data-target="140">Newkirk</option>
+                                                                                            <option value="647" data-target="141">Santa Rosa</option>
+                                                                                            <option value="659" data-target="142">Las Vegas</option>
+                                                                                            <option value="669" data-target="143">Montezuma</option>
+                                                                                            <option value="670" data-target="144">San Jose</option>
+                                                                                            <option value="672" data-target="145">Pecos</option>
+                                                                                            <option value="675" data-target="146">Glorieta</option>
+                                                                                            <option value="676" data-target="147">Santa Fe</option>
+                                                                                            <option value="687" data-target="148">Clines Corners</option>
+                                                                                            <option value="688" data-target="149">Moriarty</option>
+                                                                                            <option value="692" data-target="150">Edgewood</option>
+                                                                                            <option value="695" data-target="151">Carnuel</option>
+                                                                                            <option value="696" data-target="152">Tijeras</option>
+                                                                                            <option value="698" data-target="153">Albuquerque</option>
+                                                                                            <option value="727" data-target="154">Los Ranchos De Albuquerque</option>
+                                                                                            <option value="744" data-target="155">Los Lunas</option>
+                                                                                            <option value="746" data-target="156">New Laguna</option>
+                                                                                            <option value="747" data-target="157">Casa Blanca</option>
+                                                                                            <option value="750" data-target="158">Cubero</option>
+                                                                                            <option value="751" data-target="159">Acoma Pueblo</option>
+                                                                                            <option value="753" data-target="160">San Fidel</option>
+                                                                                            <option value="759" data-target="161">Grants</option>
+                                                                                            <option value="775" data-target="162">Prewitt</option>
+                                                                                            <option value="776" data-target="163">Thoreau</option>
+                                                                                            <option value="777" data-target="164">Continental Divide</option>
+                                                                                            <option value="779" data-target="165">Gallup</option>
+                                                                                            <option value="808" data-target="166">Lupton</option>
+                                                                                            <option value="815" data-target="167">Houck</option>
+                                                                                            <option value="819" data-target="168">Sanders</option>
+                                                                                            <option value="820" data-target="169">Petrified Forest National Park</option>
+                                                                                            <option value="823" data-target="170">Holbrook</option>
+                                                                                            <option value="854" data-target="171">Joseph City</option>
+                                                                                            <option value="858" data-target="172">Winslow</option>
+                                                                                            <option value="869" data-target="173">Two Guns</option>
+                                                                                            <option value="874" data-target="174">Canyon Diablo</option>
+                                                                                            <option value="875" data-target="175">Flagstaff</option>
+                                                                                            <option value="891" data-target="176">Parks</option>
+                                                                                            <option value="892" data-target="177">Williams</option>
+                                                                                            <option value="923" data-target="178">Ash Fork</option>
+                                                                                            <option value="933" data-target="179">Seligman</option>
+                                                                                            <option value="953" data-target="180">Peach Springs</option>
+                                                                                            <option value="957" data-target="181">Truxton</option>
+                                                                                            <option value="960" data-target="182">Valentine</option>
+                                                                                            <option value="961" data-target="183">Hackberry</option>
+                                                                                            <option value="963" data-target="184">Kingman</option>
+                                                                                            <option value="992" data-target="185">Golden Valley</option>
+                                                                                            <option value="996" data-target="186">Oatman</option>
+                                                                                            <option value="1013" data-target="187">Golden Shores</option>
+                                                                                            <option value="1016" data-target="188">Topock</option>
+                                                                                            <option value="1020" data-target="189">Needles</option>
+                                                                                            <option value="1040" data-target="190">Goffs</option>
+                                                                                            <option value="1042" data-target="191">Fenner</option>
+                                                                                            <option value="1043" data-target="192">Essex</option>
+                                                                                            <option value="1044" data-target="193">Chambless</option>
+                                                                                            <option value="1049" data-target="194">Amboy</option>
+                                                                                            <option value="1053" data-target="195">Ludlow</option>
+                                                                                            <option value="1056" data-target="196">Newberry Springs</option>
+                                                                                            <option value="1062" data-target="197">Daggett</option>
+                                                                                            <option value="1068" data-target="198">Barstow</option>
+                                                                                            <option value="1078" data-target="199">Lenwood</option>
+                                                                                            <option value="1079" data-target="200">Hodge</option>
+                                                                                            <option value="1080" data-target="201">Oro Grande</option>
+                                                                                            <option value="1090" data-target="202">Victorville</option>
+                                                                                            <option value="1097" data-target="203">Hesperia</option>
+                                                                                            <option value="1099" data-target="204">San Bernardino</option>
+                                                                                            <option value="1104" data-target="205">Rancho Cucamonga</option>
+                                                                                            <option value="1108" data-target="206">Upland</option>
+                                                                                            <option value="1110" data-target="207">Claremont</option>
+                                                                                            <option value="1111" data-target="208">Pomona</option>
+                                                                                            <option value="1112" data-target="209">Glendora</option>
+                                                                                            <option value="1113" data-target="210">Azusa</option>
+                                                                                            <option value="1114" data-target="211">Duarte</option>
+                                                                                            <option value="1115" data-target="212">Monrovia</option>
+                                                                                            <option value="1119" data-target="213">Pasadena</option>
+                                                                                            <option value="1127" data-target="214">South Pasadena</option>
+                                                                                            <option value="1128" data-target="215">Los Angeles</option>
+                                                                                            <option value="1135" data-target="216">Hollywood</option>
+                                                                                            <option value="1137" data-target="217">West Hollywood</option>
+                                                                                            <option value="1141" data-target="218">Santa Monica</option>
+                                                                                    </select>
+                                    </div>
+                                </div>-->
+                                <div class="parts help-block center">
+                                    <button type="submit" class="btn">Search</button>
+                                </div>
+                            </form>
+                            <div class="block-for-ajax">
+
+                            </div>
+                        </div>
+                        <div class="right-content filled-right-blocks">
+                                                                                                                                                                        <!-- Respons -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1507391579588391"
+     data-ad-slot="4895822009"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>                                                                                                                <div class="border-block image-filled">
+                                            <!-- Respons -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1507391579588391"
+     data-ad-slot="4895822009"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>                                        </div>
+                                                                                                                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="another-project-hp">
+        <div class="padding-main">
+            <h2>Our other projects</h2>
+            <div class="flex-blocks">
+                                                            <a href="http://www.route66navigation.com"  target="_blank"  class="flex-block border-block top-yellow">
+                                                            <h3>Route 66 Navigation</h3>
+                                                                                        <p>Turn-by-turn on historic sections of Route 66</p>
+                                                                                        <span class="btn">More</span>
+                                                                                        <img src="https://www.historic66.com/wp-content/uploads/2020/12/project1-1.png" alt="Route 66 Navigation" />
+                                                    </a>
+                                                                                <a href="http://www.route66passport.com"  class="flex-block border-block top-yellow">
+                                                            <h3>Route 66 Passport</h3>
+                                                                                        <p>Have fun and get stamps along entire Route 66</p>
+                                                                                        <span class="btn">More</span>
+                                                                                        <img src="https://www.historic66.com/wp-content/uploads/2020/12/admin-ajax.php_-1.png" alt="Route 66 Passport" />
+                                                    </a>
+                                                                                <a href="http://www.route66navigation.com/book"  class="flex-block border-block top-yellow">
+                                                            <h3>Route 66 Guide</h3>
+                                                                                        <p>Free guide will help you with your planning</p>
+                                                                                        <span class="btn">More</span>
+                                                                                        <img src="https://www.historic66.com/wp-content/uploads/2020/12/kniha.png" alt="Route 66 Guide Book" />
+                                                    </a>
+                                                                                <a href="https://shop.route66navigation.com"  class="flex-block border-block top-yellow">
+                                                            <h3>Route 66 Shop</h3>
+                                                                                        <p>Buy the Passport or unique Route 66 merchandise here</p>
+                                                                                        <span class="btn">More</span>
+                                                                                        <img src="https://www.historic66.com/wp-content/uploads/2020/12/3ko-1.png" alt="Route 66 Navigation Shop" />
+                                                    </a>
+                                                </div>
+        </div>
+    </section>
+                    <div class="banner-adver bigger">
+                            <!-- Respons -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1507391579588391"
+     data-ad-slot="4895822009"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>                    </div>
+        <!--<div class="banner-adver bigger">
+        <a href="#">
+            <img src='https://www.historic66.com/templates/data/images/adver3.jpg' alt="Historic66" />
+        </a>
+    </div>-->
+
+</main>
+
+    <footer>
+                            <div class="quote-block">
+                <div class="padding-block">
+                    <div class="table-help">
+                        <div class="help-cell">
+                            <span class="logo" style="background-image: url('https://www.historic66.com/templates/data/images/logo.svg');"></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <p>"Route 66 is actually former "U.S. Highway 66""</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                    </div>
+                </div>
+            </div>
+                                    <div class="footer-blocks">
+                <div class="flex-blocks padding-block">
+                                            <div class="flex-block ">
+                                                                                                <h4>Historic66.com is powered by Touch Media s.r.o.  </h4>
+                                                                                                                        <p>Touch Media, global company located in Slovakia (Europe) with team-mates on historic Route 66, is providing complex assistance to Route 66 travelers from around the world. Touch Media is proud creator of unique turn-by-turn Route 66 Navigation app and popular Route 66 Passport project.</p>
+                                                                                        <div class="social-site help-block left">
+                                                                                                                        <a href="https://www.facebook.com/groups/historicroute66"  style="background-image: url('https://www.historic66.com/wp-content/uploads/2020/12/fb-icon.svg');"></a>
+                                                                                                                                                                <a href="https://www.instagram.com/historic66com/"  style="background-image: url('https://www.historic66.com/wp-content/uploads/2020/12/ig-icon.svg');"></a>
+                                                                                                            </div>
+                                                                                        <a href="mailTo:hello@touchmedia.sk" class="email">hello@touchmedia.sk</a>
+                                                                                                            </div>
+                                            <div class="flex-block ">
+                                                                                                <h4>Important information</h4>
+                                                                                                                                                                                                            <ul>
+                                                                                                                        <li><a href="https://www.historic66.com/copyright-1994-2021/" >Copyright © 1994-2021</a></li>
+                                                                                                                                                                <li><a href="https://www.historic66.com/about-us/" >About Historic66</a></li>
+                                                                                                                                                                <li><a href="https://www.historic66.com/disclaimer/" >Disclaimer</a></li>
+                                                                                                                                                                <li><a href="https://www.historic66.com/privacy-policy" >Privacy Policy</a></li>
+                                                                                                                                                                <li><a href="https://www.historic66.com/our-partners/" >Partners</a></li>
+                                                                                                            </ul>
+                                                                                </div>
+                                            <div class="flex-block ">
+                                                                                                <h4>Partners</h4>
+                                                                                                                                                                                                            <ul>
+                                                                                                                        <li><a href="https://jimhinckleysamerica.com" >Jim Hinckley's America</a></li>
+                                                                                                                                                                <li><a href="https://www.onestop66.com" >One Stop 66</a></li>
+                                                                                                                                                                <li><a href="https://www.route66navigation.com" >Route 66 Navigation</a></li>
+                                                                                                                                                                <li><a href="https://geminigiant.com" >The Launching Pad</a></li>
+                                                                                                                                                                                                                                                                    </ul>
+                                                                                </div>
+                                            <div class="flex-block ">
+                                                                                                                                                                                                                                                            </div>
+                                    </div>
+            </div>
+                <div class="footer-down">
+            <div class="padding-block">
+                <span>2021 - Copyright Touch Media. All rights reserved. Braincoded by <a href="https://www.frontio.net" target="_blank" class="hover-underline-hide">frontio</a></span>
+            </div>
+        </div>
+    </footer>
+    <div class="upper-bar">
+        <div class="padding-block">
+            <div class="help-block center">
+                                                            <a href="https://www.route66navigation.com" class="">Route 66 Navigation                                                                                                                                <div class="window">
+                                                                                    <h2>Ultimate offline turn by turn navigation for historic route 66</h2>
+                                                                                                                            <span class="btn">Go to APP website</span>
+                                                                                                                            <img src="https://www.historic66.com/wp-content/uploads/2020/12/project1.png" alt="Route 66 Navigation">
+                                                                            </div>
+                                                                                    </a>
+                                                                                <a href="https://www.route66navigation.com/book" class="">Route 66 Guide                                                                                                                                <div class="window">
+                                                                                    <h2>Free Route 66 Guide Book in 8 languages</h2>
+                                                                                                                            <span class="btn">Go to BOOK website</span>
+                                                                                                                            <img src="https://www.historic66.com/wp-content/uploads/2020/12/kniha.png" alt="Route 66 Guide">
+                                                                            </div>
+                                                                                    </a>
+                                                                                <a href="https://shop.route66navigation.com" class="">Route 66 Shop                                                                                                                                <div class="window">
+                                                                                    <h2>Route 66 Navigation SHOP</h2>
+                                                                                                                            <span class="btn">Go to SHOP now</span>
+                                                                                                                            <img src="https://www.historic66.com/wp-content/uploads/2020/12/3ko-1.png" alt="Route 66 Shop">
+                                                                            </div>
+                                                                                    </a>
+                                                                                <a href="http://www.route66passport.com" class="">Route 66 Passport                                                                                                                                <div class="window">
+                                                                                    <h2>Have fun on Route 66 and collect stamps to your Passport</h2>
+                                                                                                                            <span class="btn">webpage</span>
+                                                                                                                            <img src="https://www.historic66.com/wp-content/uploads/2020/12/admin-ajax.php_.png" alt="Route 66 Passport">
+                                                                            </div>
+                                                                                    </a>
+                                                </div>
+        </div>
+    </div>
+<script>
+    function initMap() {
+        /*map = new google.maps.Map(document.getElementById('map'), {
+            center: {
+                lat: 40.0338789,
+                lng: -95.1771938
+            },
+            zoom: 8, //5.25
+            //styles: style,
+            disableDefaultUI: true
+        });*/
+        jQuery(document).ready(function($) {
+                            if ($(document).find("#turn-by-turn-overview").length > 0) {
+                    var image2 = "http://localhost/historic66/templates/data/images/marker.svg";
+                    var map2 = new google.maps.Map(document.getElementById('turn-by-turn-overview'), {
+                        center: {
+                            lat: 40.0338789,
+                            lng: -95.1771938
+                        },
+                        zoom: 5, //5.25
+                        //styles: style,
+                        disableDefaultUI: true
+                    });
+                                    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    });
+    }
+</script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false&key=AIzaSyD6n7GveUsgoXw3hpX2ODihG5xoQjJKYes&callback=initMap"></script><!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "https://www.historic66.com/wp-admin/admin-ajax.php";
+</script>
+<script type='text/javascript' src='https://www.historic66.com/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+
+		<!-- Cookie Notice plugin v1.3.2 by Digital Factory https://dfactory.eu/ -->
+		<div id="cookie-notice" role="banner" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(255,255,255,1);"><div class="cookie-notice-container" style="color: #0a0a0a;"><span id="cn-notice-text" class="cn-text-container">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</span><span id="cn-notice-buttons" class="cn-buttons-container"><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Ok">Ok</a></span><a href="javascript:void(0);" id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" aria-label="Ok"></a></div>
+			
+		</div>
+		<!-- / Cookie Notice plugin --></body>
+
+</html>
+
