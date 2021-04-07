@@ -26,9 +26,10 @@ typedef struct skiplist_s
 	struct skiplist_s *express;
 } skiplist_t;
 
-
+size_t list_len(const skiplist_t *h);
+skiplist_t *get_nodeint_at_index2(skiplist_t *head, unsigned int index);
 void init_express(skiplist_t *list, size_t size);
-
+skiplist_t *linear_skip_helper(skiplist_t *list, int target, size_t index, int value, int flag);
 skiplist_t *create_skiplist(int *array, size_t size);
 void print_skiplist(const skiplist_t *list);
 void free_skiplist(skiplist_t *list);
