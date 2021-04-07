@@ -9,6 +9,25 @@ const url = BaseUrl + id;
 /** console.log(id);
 console.log(url); */
 
+const getBody = async function (url) {
+  const options = {
+    url: url,
+    method: 'GET'
+  };
+
+  // Return new promise
+  return new Promise(function (resolve, reject) {
+    // Do async job
+    request.get(options, function (err, resp, body) {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(body);
+      }
+    });
+  });
+};
+
 request(url, function (error, response, body) {
   if (error) {
     console.error('error:', error);
@@ -21,15 +40,28 @@ request(url, function (error, response, body) {
 
   /** console.log(characters) */
   let c;
-  for (c in characters) {
-    /** console.log(characters[c]); */
-    request(characters[c], function (error, response, body) {
+  // for (c in characters) {
+  /** console.log(characters[c]); */
+  /** request(characters[c], function (error, response, body) {
       if (error) {
         console.error('error:', error);
       }
-      const name = JSON.parse(body);
       /** console.log("----") */
+
+  /** const b = await getBody(characters[c]);
+        const name = JSON.parse(b);
+        console.log(name.name); */
+
+  (async function () {
+    // const options = { url: characters[c], method: 'GET' }
+    for (c in characters) {
+      const response = await getBody(characters[c]);
+      const name = JSON.parse(response);
+      // console.log(name);
+
       console.log(name.name);
-    });
-  }
+    }
+  })();
+// };
+  // };
 });
