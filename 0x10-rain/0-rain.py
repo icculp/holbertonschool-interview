@@ -16,21 +16,21 @@ def rain(walls):
         return 0
     areas = 0
     max_l = max_r = 0
-    l = 0
-    r = len(walls) - 1
-    while l < r:
-        if walls[l] < walls[r]:
-            if walls[l] > max_l:
-                max_l = walls[l]
+    left = 0
+    right = len(walls) - 1
+    while left < right:
+        if walls[left] < walls[right]:
+            if walls[left] > max_l:
+                max_l = walls[left]
             else:
-                areas += max_l - walls[l]
-            l +=1
+                areas += max_l - walls[left]
+            left += 1
         else:
-            if walls[r] > max_r:
-                max_r = walls[r]
+            if walls[right] > max_r:
+                max_r = walls[right]
             else:
-                areas += max_r - walls[r]
-            r -=1
+                areas += max_r - walls[right]
+            right -= 1
     return areas
     ''' missing 2 checks
     i = j = c = z = 0
