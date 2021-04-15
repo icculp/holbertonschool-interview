@@ -12,6 +12,8 @@ def rain(walls):
         Returns: integer indicating total retained rainwater,
             or 0 if list is empty
     """
+    if len(walls) < 3:
+        return 0
     i = j = c = z = 0
     while 1:
         z = 0
