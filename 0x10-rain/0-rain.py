@@ -19,6 +19,6 @@ def rain(walls):
     while len(w) > 1:
         c += max(w) - min(w)
         w.remove(min(w))
-    #for x in range(len(w) - 1):
-    #    c += min(w[x], w[x + 1])
+    # for x in range(len(w) - 1):
+    #     c += min(w[x], w[x + 1])
     return c
