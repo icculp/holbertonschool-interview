@@ -12,7 +12,7 @@ def rain(walls):
         Returns: integer indicating total retained rainwater,
             or 0 if list is empty
     """
-    if len(walls) < 1:
+    if len(walls) < 2:
         return 0
     w = [x for x in walls if x != 0]
     c = 0
