@@ -12,8 +12,10 @@ def rain(walls):
         Returns: integer indicating total retained rainwater,
             or 0 if list is empty
     """
-    if len(walls) < 2:
+    if len(walls) < 3:
         return 0
+    c = 0
+    ''' 2 missing checks
     i = j = c = z = 0
     while 1:
         z = 0
@@ -30,6 +32,7 @@ def rain(walls):
         i += 1
         if i >= len(walls):
             return c
+    '''
     ''' didn't work
     w = set([x for x in walls if x != 0])
     m = min(w)
