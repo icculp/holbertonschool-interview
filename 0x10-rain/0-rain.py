@@ -14,6 +14,25 @@ def rain(walls):
     """
     if len(walls) < 3:
         return 0
+    areas = 0
+    max_l = max_r = 0
+    l = 0
+    r = len(walls) - 1
+    while l < r:
+        if walls[l] < walls[r]:
+            if walls[l] > max_l:
+                max_l = walls[l]
+            else:
+                areas += max_l - walls[l]
+            l +=1
+        else:
+            if walls[r] > max_r:
+                max_r = walls[r]
+            else:
+                areas += max_r - walls[r]
+            r -=1
+    return areas
+    ''' missing 2 checks
     i = j = c = z = 0
     while 1:
         z = 0
@@ -30,6 +49,7 @@ def rain(walls):
         i += 1
         if i >= len(walls):
             return c
+    '''
     ''' didn't work
     w = set([x for x in walls if x != 0])
     m = min(w)
