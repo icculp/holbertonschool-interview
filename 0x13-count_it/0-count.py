@@ -46,13 +46,6 @@ def print_words(word_list, hot_list):
             t = title.lower().split()
             if word.lower().strip() in t:
                 c += t.count(word.lower().strip())
-            '''
-            for w in title.split():
-                if word.strip().lower() in word.strip().lower():
-                    print("{}, {}".format(word.
-                                          strip().lower(), w.strip().lower()))
-                    c = c + 1
-            '''
         if word.lower() in cnts:
             cnts[word.lower()] += c
         else:
