@@ -28,4 +28,7 @@ typedef struct binary_tree_s heap_t;
 int heap_extract(heap_t **root);
 void binary_tree_print(const binary_tree_t *);
 
+int binary_tree_height(heap_t *tree);
+
+
 #endif
