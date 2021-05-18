@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 #include <stdio.h>
-#define MAX 10000
+#define MAX 1000000
 
 
 /**
@@ -13,10 +13,10 @@
 int _strlen(char *s)
 {
 	int i = 0;
-
+	/**printf("string: {%s}\n", s);*/
 	while (s[i] != '\0')
 		i++;
-
+	/**printf("strlen {%d}\n", i);*/
 	return (i);
 }
 
@@ -29,21 +29,31 @@ int _strlen(char *s)
 
 int main(int argc, char *argv[])
 {
-	char a[MAX];
-	char b[MAX];
+	/** char a[MAX];*/
+	/** char b[MAX];*/
 	char *c;
+	int i;
+	/**printf("main start\n");*/
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	printf("1: %s, 2: %s\n", argv[1], argv[2]);
-	*a = *argv[1];
-	*b = *argv[2];
-	c = multiply(a, b);
-	printf("%s\n", c);
-
+	/** printf("1: %s, 2: %s\n", argv[1], argv[2]);*/
+	/** *a = *argv[1];*/
+	/** *b = *argv[2];*/
+	c = multiply(argv[1], argv[2]);
+	/**printf("%s\n", c);*/
+	/**printf("strlen {%d}\n", _strlen(c));*/
+	for (i = 0; i < _strlen(c); i++)
+	{
+		if (c[i] == '0' && i == 0)
+			;
+		else
+			_putchar(c[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
 
@@ -57,62 +67,43 @@ int main(int argc, char *argv[])
 char *multiply(char a[], char b[])
 {
 	static char mul[MAX];
-	char c[MAX];
-	char temp[MAX];
-	int la, lb;
-	int i, j, k = 0, x = 0, y;
+	char c[MAX], temp[MAX];
+	int la, lb, i, j, k = 0, x = 0, y;
 	long int r = 0;
 	long sum = 0;
 
-	i = 0;
-	la = _strlen(a) - 1;
-	lb = _strlen(b) - 1;
+	la = _strlen(a) - 1, lb = _strlen(b) - 1;
 	for (i = 0; i <= la; i++)
-	{
 		a[i] = a[i] - 48;
-	}
 	for (i = 0; i <= lb; i++)
-	{
 		b[i] = b[i] - 48;
-	}
-	for (i = lb; i >= 0; i--)
+	for (i = lb; i >= 0; i--, r = 0)
 	{
-		r = 0;
 		for (j = la; j >= 0; j--)
 		{
 			temp[k++] = (b[i] * a[j] + r) % 10;
 			r = (b[i] * a[j] + r) / 10;
 		}
-		temp[k++] = r;
-		x++;
+		temp[k++] = r, x++;
 		for (y = 0; y < x; y++)
-		{
 			temp[k++] = 0;
-		}
 	}
-	k = 0;
-	r = 0;
+	k = 0, r = 0;
 	for (i = 0; i < la + lb + 2; i++)
 	{
-		sum = 0;
-		y = 0;
+		sum = 0, y = 0;
 		for (j = 1; j <= lb + 1; j++)
 		{
 			if (i <= la + j)
-			{
 				sum = sum + temp[y + i];
-			}
 		y += j + la + 1;
 		}
 		c[k++] = (sum + r) % 10;
 		r = (sum + r) / 10;
 	}
-	c[k] = r;
-	j = 0;
+	c[k] = r, j = 0;
 	for (i = k - 1; i >= 0; i--)
-	{
 		mul[j++] = c[i] + 48;
-	}
 	mul[j] = '\0';
 	return ((void *)mul);
 }
