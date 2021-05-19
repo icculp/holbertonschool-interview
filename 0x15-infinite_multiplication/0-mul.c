@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include <stdlib.h>
-#include <stdio.h>
 #define MAX 1000000
 
 
@@ -13,10 +11,9 @@
 int _strlen(char *s)
 {
 	int i = 0;
-	/**printf("string: {%s}\n", s);*/
+
 	while (s[i] != '\0')
 		i++;
-	/**printf("strlen {%d}\n", i);*/
 	return (i);
 }
 
@@ -29,23 +26,20 @@ int _strlen(char *s)
 
 int main(int argc, char *argv[])
 {
-	/** char a[MAX];*/
-	/** char b[MAX];*/
 	char *c;
+	char *error;
 	int i;
-	/**printf("main start\n");*/
 
 	if (argc != 3)
 	{
-		printf("Error\n");
+		error = "Error\n";
+		for (i = 0; i < _strlen(error); i++)
+		{
+			_putchar(error[i]);
+		}
 		exit(98);
 	}
-	/** printf("1: %s, 2: %s\n", argv[1], argv[2]);*/
-	/** *a = *argv[1];*/
-	/** *b = *argv[2];*/
 	c = multiply(argv[1], argv[2]);
-	/**printf("%s\n", c);*/
-	/**printf("strlen {%d}\n", _strlen(c));*/
 	for (i = 0; i < _strlen(c); i++)
 	{
 		if (c[i] == '0' && i == 0)
