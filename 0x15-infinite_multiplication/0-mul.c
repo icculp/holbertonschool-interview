@@ -18,6 +18,45 @@ int _strlen(char *s)
 }
 
 /**
+* error - prints the error and exit 98
+*/
+
+void error(void)
+{
+	int i;
+	char *error;
+
+	error = "Error\n";
+	for (i = 0; i < _strlen(error); i++)
+	{
+		_putchar(error[i]);
+	}
+	exit(98);
+}
+
+/**
+* check_args - checks args for non-digits
+* @a1: first arg
+* @a2: second arg
+*/
+
+void check_args(char *a1, char *a2)
+{
+	int i;
+
+	for (i = 0; i < _strlen(a1); i++)
+	{
+		if (a1[i] < 48 || a1[i] > 57)
+			error();
+	}
+	for (i = 0; i < _strlen(a2); i++)
+	{
+		if (a2[i] < 48 || a2[i] > 57)
+			error();
+	}
+}
+
+/**
 * *main - Multiplies two big-ass numbers
 * @argc: Number of args
 * @argv: Args stored as strings
@@ -27,18 +66,13 @@ int _strlen(char *s)
 int main(int argc, char *argv[])
 {
 	char *c;
-	char *error;
 	int i;
 
 	if (argc != 3)
 	{
-		error = "Error\n";
-		for (i = 0; i < _strlen(error); i++)
-		{
-			_putchar(error[i]);
-		}
-		exit(98);
+		error();
 	}
+	check_args(argv[1], argv[2]);
 	c = multiply(argv[1], argv[2]);
 	for (i = 0; i < _strlen(c); i++)
 	{
