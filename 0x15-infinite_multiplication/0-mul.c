@@ -43,7 +43,14 @@ int main(int argc, char *argv[])
 	for (i = 0; i < _strlen(c); i++)
 	{
 		if (c[i] == '0' && i == 0)
-			;
+		{
+			while (c[i + 1] == '0')
+			{
+				i++;
+			}
+			if (i == _strlen(c) - 1)
+				_putchar('0');
+		}
 		else
 			_putchar(c[i]);
 	}
