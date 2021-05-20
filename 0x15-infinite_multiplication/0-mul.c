@@ -1,5 +1,5 @@
 #include "holberton.h"
-#define MAX 1000000
+#define MAX 900000
 
 
 /**
@@ -56,6 +56,7 @@ void check_args(char *a1, char *a2)
 	}
 }
 
+
 /**
 * *main - Multiplies two big-ass numbers
 * @argc: Number of args
@@ -65,7 +66,7 @@ void check_args(char *a1, char *a2)
 
 int main(int argc, char *argv[])
 {
-	char *c;
+	char *c;/**, *a1, *a2;*/
 	int i;
 
 	if (argc != 3)
@@ -138,7 +139,7 @@ char *multiply(char a[], char b[])
 	}
 	c[k] = r, j = 0;
 	for (i = k - 1; i >= 0; i--)
-		mul[j++] = c[i] + 48;
+		mul[j] = c[i] + 48, j++;
 	mul[j] = '\0';
 	return ((void *)mul);
 }

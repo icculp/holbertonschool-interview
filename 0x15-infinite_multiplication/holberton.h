@@ -9,5 +9,7 @@ int _putchar(char c);
 char *multiply(char a[], char b[]);
 void error(void);
 void check_args(char *a1, char *a2);
+int _strlen(char *);
+
 
 #endif
