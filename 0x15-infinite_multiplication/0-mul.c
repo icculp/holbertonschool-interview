@@ -90,6 +90,7 @@ int main(int argc, char *argv[])
 			_putchar(c[i]);
 	}
 	_putchar('\n');
+	free(c);
 	return (0);
 }
 
@@ -104,8 +105,7 @@ char *multiply(char a[], char b[])
 {
 	char *mul, *c, *temp;
 	int la, lb, i, j, k = 0, x = 0, y;
-	long int r = 0;
-	long sum = 0;
+	long int r = 0, sum = 0;
 
 	la = _strlen(a) - 1, lb = _strlen(b) - 1, mul = malloc(la + lb + 5);
 	c = malloc(la + lb + 5), temp = malloc(la + lb + 5000000);
@@ -141,5 +141,6 @@ char *multiply(char a[], char b[])
 	for (i = k - 1; i >= 0; i--)
 		mul[j] = c[i] + 48, j++;
 	mul[j] = '\0';
+	free(c), free(temp);
 	return ((void *)mul);
 }
