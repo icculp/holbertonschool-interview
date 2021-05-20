@@ -1,5 +1,5 @@
 #include "holberton.h"
-#define MAX 900000
+#define MAX 999951
 
 
 /**
