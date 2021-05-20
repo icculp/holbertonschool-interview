@@ -102,13 +102,13 @@ int main(int argc, char *argv[])
 
 char *multiply(char a[], char b[])
 {
-	static char mul[MAX];
-	char c[MAX], temp[MAX];
+	char *mul, *c, *temp;
 	int la, lb, i, j, k = 0, x = 0, y;
 	long int r = 0;
 	long sum = 0;
 
-	la = _strlen(a) - 1, lb = _strlen(b) - 1;
+	la = _strlen(a) - 1, lb = _strlen(b) - 1, mul = malloc(la + lb + 5);
+	c = malloc(la + lb + 5), temp = malloc(la + lb + 5000000);
 	for (i = 0; i <= la; i++)
 		a[i] = a[i] - 48;
 	for (i = 0; i <= lb; i++)
