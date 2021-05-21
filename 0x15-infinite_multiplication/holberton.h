@@ -10,6 +10,6 @@ char *multiply(char a[], char b[]);
 void error(void);
 void check_args(char *a1, char *a2);
 int _strlen(char *);
-
+void *_calloc(unsigned int nmemb, unsigned int size);
 
 #endif

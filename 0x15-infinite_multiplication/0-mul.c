@@ -1,6 +1,4 @@
 #include "holberton.h"
-#define MAX 999951
-
 
 /**
 * _strlen - Determines the length of the string manually
@@ -95,6 +93,33 @@ int main(int argc, char *argv[])
 }
 
 /**
+* *_calloc - Allocates memory for an array using malloc
+* @nmemb: Number of elements in the array
+* @size: Number of bytes in each element of the array
+* Return: NULL if fail or 0, or pointer to allocated memory
+*/
+
+void *_calloc(unsigned int nmemb, unsigned int size)
+{
+	char *ray;
+	unsigned int i, j = 0;
+
+	if (nmemb == 0 || size == 0)
+		return (NULL);
+	j = (size * nmemb);
+	ray = malloc(j);
+	if (ray == NULL)
+		return (NULL);
+
+	for (i = 0; i < j; i++)
+	{
+		ray[i] = 0;
+	}
+	return ((void *)ray);
+}
+
+
+/**
 * *multiply - Multiplies the strings and returns a string
 * @a: Firstr
 * @b: Secondstr
@@ -105,10 +130,11 @@ char *multiply(char a[], char b[])
 {
 	char *mul, *c, *temp;
 	int la, lb, i, j, k = 0, x = 0, y;
-	long int r = 0, sum = 0;
+	long int r = 0;
+	long sum = 0;
 
-	la = _strlen(a) - 1, lb = _strlen(b) - 1, mul = malloc(la + lb + 5);
-	c = malloc(la + lb + 5), temp = malloc(la + lb + 5000000);
+	la = _strlen(a) - 1, lb = _strlen(b) - 1, mul = _calloc(la + lb + 5, 1);
+	c = _calloc(la + lb + 5, 1), temp = _calloc(la + lb + 90000000, 1);
 	for (i = 0; i <= la; i++)
 		a[i] = a[i] - 48;
 	for (i = 0; i <= lb; i++)
@@ -140,7 +166,6 @@ char *multiply(char a[], char b[])
 	c[k] = r, j = 0;
 	for (i = k - 1; i >= 0; i--)
 		mul[j] = c[i] + 48, j++;
-	mul[j] = '\0';
-	free(c), free(temp);
+	mul[j] = '\0', free(c), free(temp);
 	return ((void *)mul);
 }
