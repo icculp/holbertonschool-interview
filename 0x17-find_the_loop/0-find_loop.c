@@ -15,14 +15,16 @@ listint_t *find_listint_loop(listint_t *head)
 	turtle = hare = head;
 	while (turtle && hare && hare->next)
 	{
-		if (hare->next == turtle->next->next)
-			return (hare->next);
+		/**if (hare->next == turtle->next->next)
+			return (hare->next);*/
 		if (turtle->next)
 			turtle = turtle->next;
 		if (hare->next && hare->next->next)
 			hare = hare->next->next;
 		else
 			return (NULL);
+		if (turtle == hare)
+			return (hare);
 	}
 	return (NULL);
 }
