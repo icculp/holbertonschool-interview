@@ -12,7 +12,6 @@ void merger(int *array, int l, int m, int r)
 	int i, j, k, n1 = m - l + 1, n2 = r - m;
 	int *R;
 
-	/** L = malloc(sizeof(int) * n1);*/
 	R = malloc(sizeof(int) * (n1 + n2));
 	if (R == NULL)
 		return;
