@@ -17,7 +17,8 @@ List *add_node_end(List **list, char *str)
 	if (new == NULL)
 		return (NULL);
 	new->str = str;
-	new->prev = new->next = new;
+	new->prev = new;
+	new->next = new;
 	if (*list == NULL)
 	{
 		*list = new;
@@ -49,7 +50,8 @@ List *add_node_begin(List **list, char *str)
 	if (new == NULL)
 		return (NULL);
 	new->str = str;
-	new->prev = new->next = new;
+	new->prev = new;
+	new->next = new;
 	if (*list == NULL)
 	{
 		*list = new;
