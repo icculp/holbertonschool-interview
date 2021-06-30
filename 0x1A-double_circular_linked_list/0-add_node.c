@@ -59,6 +59,6 @@ List *add_node_begin(List **list, char *str)
 	(*list)->prev->next = new;
 	(*list)->prev = new;
 	new->next = *list;
-	/***list = new;*/
+	*list = new;
 	return (new);
 }
