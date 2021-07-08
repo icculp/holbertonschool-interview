@@ -27,7 +27,33 @@ int get_max(int *array, size_t size)
 
 void radix_sort(int *array, size_t size)
 {
+	int bucket[10][10], count[10], i, j, k, r, digits, div = 1, max, p;
+
 	if (size < 2)
 		return;
-	print_array(array, size);
+	max = get_max(array, size);
+	while (max > 0)
+		digits++, max /= 10;
+	for (p = 0; p < digits; p++)
+	{
+		for (i = 0; i < 10; i++)
+			count[i] = 0;
+		for (i = 0; i < (int)size; i++)
+		{
+			r = (array[i] / div) % 10;
+			bucket[r][count[r]] = array[i];
+			count[r] += 1;
+		}
+		i = 0;
+		for (k = 0; k < 10; k++)
+		{
+			for (j = 0; j < count[k]; j++)
+			{
+				array[i] = bucket[k][j];
+				i++;
+			}
+		}
+		div *= 10;
+		print_array(array, size);
+	}
 }
