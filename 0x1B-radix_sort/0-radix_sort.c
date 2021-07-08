@@ -27,8 +27,8 @@ int get_max(int *array, size_t size)
 
 void radix_sort(int *array, size_t size)
 {
-	int bucket[10][10], count[10], i, j, k, r;
-	int digits = 0, div = 1, max, p;
+	int bucket[1000][1000], count[10], i = 0, j = 0, k = 0, r = 0;
+	int digits = 0, div = 1, max = 0, p = 0;
 
 	if (size < 2)
 		return;
@@ -60,4 +60,5 @@ void radix_sort(int *array, size_t size)
 		div *= 10;
 		print_array(array, size);
 	}
+	print_array(array, size);
 }

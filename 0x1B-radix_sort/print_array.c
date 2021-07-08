@@ -12,6 +12,7 @@ void print_array(const int *array, size_t size)
     size_t i;
 
     i = 0;
+	printf("here\n");
     while (array && i < size)
     {
         if (i > 0)
@@ -20,4 +21,5 @@ void print_array(const int *array, size_t size)
         ++i;
     }
     printf("\n");
+	printf("there\n");
 }
