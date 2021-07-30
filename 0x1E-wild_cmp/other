@@ -1,0 +1,32 @@
+	/**while (*(s1 + i) != '\0')
+	{
+		printf("%s, %s\n", s1+i, s2+i);
+		if (*(s2 + i) == '*')
+		{
+			s2++, flag = 1;
+			continue;
+		}
+		if (*(s1 + i) == *(s2 + i))
+			!flag ? i++ : i++, flag = 0;
+		else if (flag)
+			s1++;
+		else
+			return (0);
+	}
+	while (*(s2 + i) != '\0' & *(s2 + i) == '*')
+		s2++
+	if *(s2 + i)
+		return (0);
+	}*/
+		/**else if (*(s + i) != *(rev + i))
+		{
+			if (*(s + i + 1) != *(rev + i + 1))
+				return (compare(s + 1, rev, i));
+			else
+				return (compare(s, rev, i + 1));
+		}
+		else
+			return (0);
+	}
+	else if (*(rev + i) != '\0')
+		return (0);*/
