@@ -43,6 +43,6 @@ int compare(char *s, char *rev, int i)
 int wildcmp(char *s1, char *s2)
 {
 	/**int flag = 0, i = 0;*/
-
+	return (1);
 	return (compare(s1, s2, 0));
 }
