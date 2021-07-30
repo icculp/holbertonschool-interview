@@ -1,29 +1,6 @@
 #include "holberton.h"
 
 /**
-* compare - Compares the original string with the reversed string
-* @s: Source string
-* @rev: Reversed string
-* @i: Iterator
-* Return: 1 if equal 0 if not
-*/
-
-int compare(char *s, char *rev, int i)
-{
-	if (s[i] != '\0')
-	{
-	if (*(s + i) == *(rev + i))
-		return (compare(s, rev, i + 1));
-	else if (*(s + i) != *(rev + i))
-		return (0);
-	else
-		return (1);
-	}
-	else
-		return (1);
-}
-
-/**
 * wildcmp - Compares two strings
 * @s1: First string to compare
 * @s2: Second string to compare
@@ -32,5 +9,27 @@ int compare(char *s, char *rev, int i)
 
 int wildcmp(char *s1, char *s2)
 {
-	return (compare(s1, s2, 0));
+	int flag = 0, i = 0;
+
+	while (*(s1 + i) != '\0')
+	{
+		/**printf("%s, %s\n", s1+i, s2+i);*/
+		if (*(s2 + i) == '*')
+		{
+			s2++, flag = 1;
+			continue;
+		}
+		if (*(s1 + i) == *(s2 + i))
+			!flag ? i++ : i++, flag = 0;
+		else if (flag)
+			s1++;
+		else
+			return (0);
+	}
+	while ((*(s2 + i) != '\0') && *(s2 + i) == '*')
+		s2++;
+	if (*(s2 + i) != '\0')
+		return (0);
+	return (1);
 }
+
