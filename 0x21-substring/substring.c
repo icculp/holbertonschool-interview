@@ -44,6 +44,7 @@ int *find_substring(char const *s, char const **words, int nb_words, int *n)
 			elements[(*n)++] = i;
 		i++;
 	}
+	free(found);
 	return (elements);
 }
 
