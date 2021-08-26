@@ -2,11 +2,13 @@
 """
     Prime game
 
-    For anyone wondering, checking primes without optimization can explode in time complexity at larger values for n
-    So, by first creating the list of primes and comparing will reduce complexity, however still gets exponentially bigger...
-    
-    So by converting the list to a hased set, the lookup time for each value becomes O(1) and is very fast!
+    For anyone wondering, checking primes without optimization
+        can explode in time complexity at larger values for n
+    So, by first creating the list of primes and comparing will
+        reduce complexity, however still gets exponentially bigger...
 
+    So by converting the list to a hased set, the lookup time for
+        each value becomes O(1) and is very fast!
 """
 
 primes_string = "2      3      5      7     11     13     17     19     23     29 \
@@ -131,12 +133,13 @@ primes_string = "2      3      5      7     11     13     17     19     23     2
    9643   9649   9661   9677   9679   9689   9697   9719   9721   9733 \
    9739   9743   9749   9767   9769   9781   9787   9791   9803   9811 \
    9817   9829   9833   9839   9851   9857   9859   9871   9883   9887 \
-   9901   9907   9923   9929   9931   9941   9949   9967   9973" 
+   9901   9907   9923   9929   9931   9941   9949   9967   9973"
 
 primes_list = primes_string.split()
 primes_list = [int(prime) for prime in primes_list]
 # print(primes_list)
 primes_list = set(primes_list)
+
 
 def isWinner(x, nums):
     """
@@ -153,7 +156,7 @@ def isWinner(x, nums):
         if n == 1:
             players['Ben'] += 1
             continue
-        round = set(j for j in range(2, n + 1))
+        round = set((j in primes_list) and j for j in range(2, n + 1))
         # print(round)
         # print(round[0])
         ro = 0
@@ -161,27 +164,28 @@ def isWinner(x, nums):
         while len(round) > 1:
             current_n = round.pop()
             # print('currentn', current_n)
-            new_round = set()
+            # new_round = set()
             # ((print(j) and (j % current_n != 0)
             # and round.add(j)) for j in range(2, n + 1))
 
             # remove non primes
-            #for k in range(int(max(j) / 2) + 1):
-            #    if 
+            # for k in range(int(max(j) / 2) + 1):
+            #    if
 
-            for j in round:
+            '''for j in round:
                 # print(j)
-                flag = 0
-                if (j in primes_list):# % current_n != 0):
+                # flag = 0
+                if (j in primes_list and j % current_n != 0):
                     # for k in range(2, int(j**(1/2)) + 1):
                     #     if j % k == 0:
                     #        flag = 1
                     #        break
-                    #if not flag:
+                    # if not flag:
                         new_round.add(j)
+                        print(j)'''
             # print(round)
             ro += 1
-            round = new_round
+            # round = new_round
         if ro % 2 == 0:
             players['Maria'] += 1
             # print('maria')
