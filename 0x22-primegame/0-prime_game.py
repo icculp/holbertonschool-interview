@@ -153,12 +153,16 @@ def isWinner(x, nums):
     for i in range(x):
         n = nums[i]
         # print(n)
-        if n == 1:
+        if n == 1 or n == 0:
             players['Ben'] += 1
             continue
-        round = set((j in primes_list) and j for j in range(2, n + 1))
+        if n == 2:
+            players['Maria'] += 1
+            continue
+        round = set(j for j in range(2, n + 1) if j in primes_list)
         # print(round)
         # print(round[0])
+        # print(round)
         ro = 0
         # print('--while')
         while len(round) > 1:
